@@ -1,0 +1,59 @@
+.title {
+  letter-spacing: 2.0rem;
+}
+
+.aboutContainer {
+  margin-top: 2rem;
+  max-width: 400px;
+}
+
+.snList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.snIcon {
+  width: 20px;
+  height: auto;
+  margin-top: 1.5em;
+  margin-right: 2em;
+  opacity: 0.5;
+}
+
+.snIcon:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutContainer {
+    margin-top: 1.3rem;
+    max-width: 350px;
+  }
+
+  .snIcon {
+    margin-top: 0.7em;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    letter-spacing: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutContainer {
+    margin-top: 0.8rem;
+    max-width: 320px;
+  }
+
+  .snIcon {
+    margin-top: 0.7em;
+  }
+
+  .title {
+    margin-top: -1rem;
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+  }
+}
