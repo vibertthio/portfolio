@@ -15,8 +15,10 @@
 	float: right;
 	opacity: 0.3;
 	width: 30px;
+	height: 30px;
 	margin-top: 0.1rem;
 	transition: 0.5s;
+	-webkit-transition: 0.5s;
 }
 
 .menuIcon:hover,
@@ -48,7 +50,7 @@
 	background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
 	overflow-x: hidden; /* Disable horizontal scroll */
 	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-
+  -webkit-transition: 0.5s;
 	text-align: center;
 }
 
@@ -73,6 +75,7 @@
 	color: #818181;
 	display: block; /* Display block instead of inline */
 	transition: 0.3s; /* Transition effects on hover (color) */
+	-webkit-transition: 0.3s;
 }
 
 .link p {
@@ -108,6 +111,7 @@
 	margin-top: 3rem;
 	opacity: 0.5;
 	transition: 0.5s;
+	-webkit-transition: 0.5s;
 }
 .closeBtn:hover {
 	opacity: 0.9;
