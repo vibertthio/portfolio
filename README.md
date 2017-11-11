@@ -1,2 +1,3 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a Gatsby site
+# Vibert Thio's Portfolio
+
+![projects](./assets/screenshots/projects.png)
