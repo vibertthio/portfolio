@@ -62,8 +62,8 @@ class Collapse extends Component {
         </Link>
       </div>
     </div>
-    <button className={`${styles.btn} ${styles.menuIcon}`} onClick={() => this.onClick()}>
-      {this.state.open ? '' : <img src={menuIcon} alt="menu-icon" />}
+    <button className={`${styles.btn} ${styles.menuBtn}`} onClick={() => this.onClick()}>
+      {this.state.open ? '' : <img className={styles.menuIcon} src={menuIcon} alt="menu-icon" />}
     </button>
   </div>
 		);

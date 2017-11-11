@@ -10,19 +10,22 @@
 	outline: none;
 }
 
-.menuIcon {
+.menuBtn {
 	display: inline-block;
 	float: right;
 	opacity: 0.3;
-	width: 30px;
-	max-height: 30px;
 	margin-top: 0.1rem;
 	transition: 0.5s;
 	-webkit-transition: opacity 0.5s;
 }
 
-.menuIcon:hover,
-.menuIcon:focus {
+.menuIcon {
+	width: 20px;
+	max-height: 15px;
+}
+
+.menuBtn:hover,
+.menuBtn:focus {
 	opacity: 0.9;
 }
 
@@ -162,6 +165,10 @@ Layout
 	.layout {
 		width: 80%;
 	}
+
+	.menuBtn {
+		margin-top: 0rem;
+	}
 }
 
 @media screen and (max-width: 790px) {
@@ -185,8 +192,13 @@ Layout
 		width: 100%;
 	}
 
+	.menuBtn {
+		margin-top: -0.1rem;
+	}
+
 	.menuIcon {
-		margin-top: 0;
+		width: 15px;
+		max-height: 15px;
 	}
 
 	.flashLogo {
@@ -210,7 +222,7 @@ Layout
 }
 
 @media screen and (min-width: 769px) {
-	.menuIcon {
+	.menuBtn {
 		display: none;
 	}
 }
