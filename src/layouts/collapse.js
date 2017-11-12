@@ -11,8 +11,6 @@ class Collapse extends Component {
 		this.state = {
 			open: false,
 		};
-
-		// this.onClick = this.onClick.bind(this);
 	}
 
 	onClick() {

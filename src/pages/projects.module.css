@@ -17,7 +17,7 @@
   min-height: 35rem;
 }
 
-.projectTitle {
+.title {
   margin-bottom: 1em;
   font-size: 3em;
   font-family: "Oswald";
@@ -33,37 +33,42 @@
   font-weight: 300;
 }
 
-.projectsDescription {
+.description {
   margin-top: 0;
   line-height: 1.8em;
 }
 
-.projectsDescription a {
+.description a {
   text-decoration: none;
   color: #000;
   opacity: 0.5;
 }
 
-.projectsDescription a:hover {
+.description a:hover {
   opacity: 1;
 }
 
-.thumbnailProjectImg {
-  position: relative;
+.right {
   float: right;
-  margin-top: 0;
-  margin-left: 3rem;
-  margin-bottom: 30px;
+  margin: 0 0 30px 3rem;
+}
+
+.left {
+  float: left;
+  margin: 0 3rem 30px 0;
+}
+
+.projectImgContainer {
+  position: relative;
   width: 60%;
   height: 30rem;
   overflow: hidden;
 }
 
-.thumbnailProjectImg img {
+.projectImgContainer img {
   position: absolute;
   left: 50%;
   top: 25%;
-  /*height: 100%;*/
   width: auto;
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
@@ -71,11 +76,11 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .projectTitle {
+  .title {
     margin-bottom: 0.4em;
   }
 
-  .thumbnailProjectImg {
+  .projectImgContainer {
     position: relative;
     float: left;
     margin-left: 0;
@@ -85,7 +90,7 @@
     height: 400px;
     overflow: hidden;
   }
-  .thumbnailProjectImg img {
+  .projectImgContainer img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -94,7 +99,7 @@
 
 
 @media only screen and (max-width: 720px) {
-  .projectTitle {
+  .title {
     margin-bottom: 0.3em;
     font-size: 2.8em;
     font-family: "Oswald";
@@ -102,15 +107,22 @@
     letter-spacing: 0.5em;
   }
 
-  .thumbnailProjectImg {
+  /*.projectImgContainer {
     position: relative;
     float: left;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 1rem;
     width: 100%;
-    /*height: 20rem;*/
     height: 260px;
+  }*/
+
+  .projectImgContainer {
+    display: block;
+    margin: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 20rem;
   }
 
   .descriptionContainer {
@@ -130,26 +142,25 @@
     min-height: 400px;
   }
 
-  .projectTitle {
+  .title {
     font-size: 2.5em;
     font-family: "Oswald";
     font-weight: 300;
     letter-spacing: 0.3em;
   }
 
-  .thumbnailProjectImg img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-  }
-
-  .thumbnailProjectImg {
+  .projectImgContainer {
     display: block;
     margin: 0;
-    /*width: 100%;*/
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     height: 15rem;
+  }
+
+  .projectImgContainer img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
   }
 
   .descriptionContainer {

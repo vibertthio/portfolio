@@ -2,40 +2,9 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import styles from './index.module.css';
 import Collapse from './collapse';
+import NavList from './nav-list';
 import signBlack from '../../assets/images/sign-black.png';
 import logo from '../../assets/images/logo.png';
-
-const ListLink = props => (
-  <li style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-);
-
-const ListDevider = props => (
-  <li className={styles.navListItem} style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
-    {props.children}
-  </li>
-);
-
-const NavList = () => (
-  <ul className={styles.expandMenu} style={{ listStyle: 'none', float: 'right' }}>
-    <ListLink to="/">
-      <h4 className={styles.navItem}>Home</h4>
-    </ListLink>
-    <ListDevider>
-      <h4 className={styles.navDevider}>|</h4>
-    </ListDevider>
-    <ListLink to="/projects/">
-      <h4 className={styles.navItem}>Projects</h4>
-    </ListLink>
-    <ListDevider>
-      <h4 className={styles.navDevider}>|</h4>
-    </ListDevider>
-    <ListLink to="/blogs/">
-      <h4 className={styles.navItem}>Blogs</h4>
-    </ListLink>
-  </ul>
-);
 
 class Layout extends Component {
 	constructor() {

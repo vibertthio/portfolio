@@ -46,7 +46,7 @@ const projects = [
          rel="noopener noreferrer"
          target="_blank"
       >
-        > showcase in Taipei 2016
+        > Showcase in Taipei 2016
       </a>
       <br/>
       <a
