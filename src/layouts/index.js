@@ -7,7 +7,6 @@ import Collapse from './collapse';
 import NavList from './nav-list';
 import signBlack from '../../assets/images/sign-black.png';
 import logo from '../../assets/images/logo.png';
-import navImg from '../../assets/images/noise.png';
 
 const { Events, scrollSpy } = Scroll;
 

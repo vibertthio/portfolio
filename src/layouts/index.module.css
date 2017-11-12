@@ -163,7 +163,7 @@ NavBar
 	position: fixed;
 	width: 93%;
 	/*width: inherit;*/
-	top: 1.25rem;
+	top: 1rem;
 	z-index: 2;
 }
 .fixedNavBar {
@@ -172,33 +172,34 @@ NavBar
 
 .stickyBackground {
 	/*background-image: url('../../assets/images/noise.png');*/
-	opacity: 0.5;
 	position: fixed;
 	width: 100%;
 	height: 3.5rem;
 	top: 0;
 	left: 0;
 	z-index: 1;
-	background-color: rgba(200, 200, 200, 0.8);
+	background-color: rgba(242, 241, 245, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 0.5s; /* Firefox < 16 */
-          animation: fadein 0.5s;
+
+  -webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 0.3s; /* Firefox < 16 */
+          animation: fadein 0.3s;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.5; }
+    to   { opacity: 1; }
 }
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.5; }
+    to   { opacity: 1; }
 }
 /* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.5; }
+    to   { opacity: 1; }
 }
 /***
 Footer
