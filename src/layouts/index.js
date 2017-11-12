@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
+import Scroll from 'react-scroll';
+
 import styles from './index.module.css';
 import Collapse from './collapse';
 import NavList from './nav-list';
 import signBlack from '../../assets/images/sign-black.png';
 import logo from '../../assets/images/logo.png';
+import navImg from '../../assets/images/noise.png';
+
+const { Events, scrollSpy } = Scroll;
 
 const NabBar = props => (
   <header
@@ -38,19 +43,44 @@ class Layout extends Component {
 	}
 
 	componentDidMount() {
+		Events.scrollEvent.register('begin', (to, ...args) => {
+			console.log('begin', args);
+		});
+
+		Events.scrollEvent.register('end', (to, ...args) => {
+			console.log('end', args);
+		});
+
+		scrollSpy.update();
+
 		window.addEventListener('scroll', () => {
-			console.log('scroll down!');
+			console.log('scroll!');
+			console.log(`scroll Y: ${window.scrollY}`);
+			let scrolledDown;
+			const y = window.scrollY;
+			if (y > 60) {
+				scrolledDown = true;
+			} else {
+				scrolledDown = false;
+			}
+
 			this.setState({
-				scrolledDown: true,
+				scrolledDown,
 			});
 		});
+	}
+
+	componentWillUnmount() {
+		Events.scrollEvent.remove('begin');
+		Events.scrollEvent.remove('end');
 	}
 
 	render() {
 		return (
   <div className={`${styles.layout} ${this.state.scrolledDown ? '' : styles.scrolled}`}>
     <NabBar site={this.props.data.site} sticky={false} />
-    <NabBar site={this.props.data.site} sticky />
+    {this.state.scrolledDown ? <NabBar site={this.props.data.site} sticky /> : ''}
+    {this.state.scrolledDown ? <div className={styles.stickyBackground} /> : ''}
     <div className={styles.body}>{this.props.children()}</div>
     <footer>
       <div className={styles.footerContainer}>
