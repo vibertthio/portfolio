@@ -165,10 +165,18 @@ NavBar
 	/*width: inherit;*/
 	top: 1rem;
 	z-index: 2;
+
+	/*-webkit-animation: fadein 0.8s;
+		 -moz-animation: fadein 0.8s;
+					animation: fadein 0.8s;*/
+
+	transition: 0.5s;
+	-webkit-transition: opacity 0.5s;
 }
 .fixedNavBar {
 	width: inherit;
 }
+
 
 .stickyBackground {
 	/*background-image: url('../../assets/images/noise.png');*/
@@ -181,10 +189,12 @@ NavBar
 	background-color: rgba(242, 241, 245, 0.8);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
-  -webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 0.3s; /* Firefox < 16 */
+  -webkit-animation: fadein 0.3s;
+     -moz-animation: fadein 0.3s;
           animation: fadein 0.3s;
+
+	transition: 0.5s;
+	-webkit-transition: opacity 0.5s;
 }
 
 @keyframes fadein {
