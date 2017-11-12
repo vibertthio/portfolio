@@ -1,7 +1,3 @@
-.layout {
-	/*padding: 1rem 5rem;*/
-	width: 70%;
-}
 
 .btn {
 	background-color: Transparent;
@@ -157,6 +153,19 @@
 	margin-top: 0.2rem;
 }
 
+/***
+NavBar
+***/
+.fixedHeader {
+	position: fixed;
+	width: 87%;
+	top: 1.25rem;
+	z-index: 1;
+}
+.fixedNavBar {
+	width: inherit;
+}
+
 
 /***
 Footer
@@ -201,10 +210,15 @@ Footer
 /***
 Layout
 ***/
+
 .layout {
+	width: 70%;
 	height:100%;
+	max-width: 1100px;
+	margin: auto;
 	margin-bottom: -20px;
 	padding-bottom: 20px;
+	padding: 1.25rem 1.0rem;
 }
 
 @media screen and (max-width: 1224px) {
