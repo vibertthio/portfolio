@@ -34,3 +34,15 @@
        url('./../fonts/oswald-v13-latin/oswald-v13-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('./../fonts/oswald-v13-latin/oswald-v13-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#___gatsby {
+  height: 100%;
+}

@@ -157,9 +157,55 @@
 	margin-top: 0.2rem;
 }
 
+
+/***
+Footer
+***/
+
+.body {
+	position: relative;
+	min-height: 90%;
+	margin-bottom: -20px; /* Equivalent to footer's height */
+	padding-bottom: 20px; /* Equivalent to footer's height */
+	box-sizing: border-box;
+}
+
+.footerContainer {
+	position: relative;
+	margin-bottom: 0;
+	height: 30px;
+	width: 100%;
+}
+
+.footerContent {
+	margin: 0;
+	text-align: center;
+	font-size: 0.7rem;
+	letter-spacing: 0.12rem;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media screen and (max-height: 740px) {
+	.body {
+		min-height: 89%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.body {
+		min-height: 95%;
+	}
+}
+
 /***
 Layout
 ***/
+.layout {
+	height:100%;
+	margin-bottom: -20px;
+	padding-bottom: 20px;
+}
 
 @media screen and (max-width: 1224px) {
 	.layout {

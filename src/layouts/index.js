@@ -44,7 +44,14 @@ class Layout extends Component {
       <NavList />
       <Collapse />
     </header>
-    {this.props.children()}
+    <div className={styles.body}>
+      {this.props.children()}
+    </div>
+    <footer>
+      <div className={styles.footerContainer}>
+        <h5 className={styles.footerContent}>2017 @ Vibert Thio</h5>
+      </div>
+    </footer>
   </div>
 		);
 	}

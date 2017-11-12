@@ -6,7 +6,7 @@ date: "2017-10-28"
 
 A 3D system for performance
 
-![demo](banner.png)
+![demo](./banner.png)
 
 It's prototyped in Processing.
 
