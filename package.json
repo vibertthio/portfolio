@@ -23,6 +23,7 @@
     "react-collapse": "^4.0.3",
     "react-html-parser": "^2.0.1",
     "react-motion": "^0.5.2",
+    "react-scroll": "^1.6.4",
     "typography-plugin-code": "^0.16.11",
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-fairy-gates": "^0.15.11"
