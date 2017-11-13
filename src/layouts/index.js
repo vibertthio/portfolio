@@ -87,6 +87,7 @@ class Layout extends Component {
 	}
 
 	render() {
+    console.log(`current path: ${this.props.location}`);
 		return (
   <Loadable
     background="rgba(200, 200, 200, 1)"
