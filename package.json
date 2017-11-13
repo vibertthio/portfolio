@@ -22,6 +22,7 @@
     "gatsby-transformer-remark": "^1.7.20",
     "react-collapse": "^4.0.3",
     "react-html-parser": "^2.0.1",
+    "react-loading-overlay": "^0.2.8",
     "react-motion": "^0.5.2",
     "react-scroll": "^1.6.4",
     "typography-plugin-code": "^0.16.11",
