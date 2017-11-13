@@ -7942,6 +7942,10 @@ rc@^1.1.2, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-click-outside@tj/react-click-outside:
+  version "1.1.1"
+  resolved "https://codeload.github.com/tj/react-click-outside/tar.gz/7568a29705e0f06136c89cb30cc9dbfc0455b8fb"
+
 react-collapse@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/react-collapse/-/react-collapse-4.0.3.tgz#b96de959ed0092a43534630b599a4753dd76d543"
