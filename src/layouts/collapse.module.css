@@ -28,7 +28,7 @@ Links
 .menuContainer {
 	display: block;
 	float: left;
-	width: 50%;
+	width: 60%;
 	margin: 4.5rem 0 0 4.5rem;
 }
 .overlayContent {
@@ -40,7 +40,7 @@ Links
 
 .link {
 	display: block;
-	margin: 1rem 0 1rem 2rem;
+	margin: 2.0rem 0 1rem 2rem;
 	padding: 8px;
 	text-decoration: none;
 	font-size: 3rem;
@@ -51,7 +51,7 @@ Links
 
 .link p {
 	font-family: 'Oswald';
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	letter-spacing: 0.3rem;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -71,6 +71,55 @@ Links
 
 .link.inactive p {
 	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.link {
+		margin: 2.0rem 0 1rem 2rem;
+	}
+
+	.menuContainer {
+		width: 60%;
+		margin: 3rem 0 0 3rem;
+	}
+
+	.link p {
+		font-size: 3.0rem;
+		letter-spacing: 0.4rem;
+	}
+}
+
+
+@media screen and (max-width: 490px) {
+	.link {
+		margin: 1.0rem 0 1.0rem 2rem;
+	}
+
+	.menuContainer {
+		width: 60%;
+		margin: 2.5rem 0 0 2.5rem;
+	}
+
+	.link p {
+		font-size: 2.0rem;
+		letter-spacing: 0.3rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.link {
+		margin: 1.0rem 0 1.0rem 2rem;
+	}
+
+	.menuContainer {
+		width: 80%;
+		margin: 1.5rem 0 0 1.0rem;
+	}
+
+	.link p {
+		font-size: 2.0rem;
+		letter-spacing: 0.3rem;
+	}
 }
 
 
