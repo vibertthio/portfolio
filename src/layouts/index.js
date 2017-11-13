@@ -70,7 +70,7 @@ class Layout extends Component {
 
 	render() {
 		return (
-  <Loadable style={{ height: '100%' }} active={this.state.loading} spinner>
+  <Loadable background="rgba(200, 200, 200, 1)" style={{ height: '100%' }} active={this.state.loading} spinner>
     {!this.state.loading && (
     <div
       className={`

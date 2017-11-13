@@ -1,5 +1,5 @@
 import React from 'react';
-import { Motion, spring } from 'react-motion';
+import FadeIn from '../utils/fade-in';
 
 import styles from './index.module.css';
 import fbIcon from '../../assets/images/fb-icon.svg';
@@ -7,26 +7,6 @@ import ghIcon from '../../assets/images/gh-icon.svg';
 import mdIcon from '../../assets/images/medium-icon.svg';
 import './index.css';
 
-const FadeIn = props => (
-  <Motion
-    defaultStyle={{ opacity: 0, x: 40 }}
-    style={{
-			opacity: spring(1, { stiffness: 120, damping: 17 }),
-			x: spring(0, { stiffness: 50, damping: 5 }),
-		}}
-  >
-    {(interpolatingStyle) => {
-			console.log(interpolatingStyle);
-			return (
-  <div
-    style={{ opacity: interpolatingStyle.opacity, marginLeft: `${interpolatingStyle.x}px` }}
-  >
-    {props.children}
-  </div>
-			);
-		}}
-  </Motion>
-);
 
 export default () => (
   <div>
