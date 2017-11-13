@@ -7,12 +7,20 @@ import ghIcon from '../../assets/images/gh-icon.svg';
 import mdIcon from '../../assets/images/medium-icon.svg';
 import './index.css';
 
-
 export default () => (
   <div>
-    <FadeIn>
-      <div>
+    <div>
+      <FadeIn
+        x={{
+					start: 90,
+					end: 0,
+					stiffness: 50,
+					damping: 20,
+				}}
+      >
         <h1 className={styles.title}>About</h1>
+      </FadeIn>
+      <FadeIn>
         <div className={styles.aboutContainer}>
           <p>
 						Vibert Thio is digging into cutting-edge tech, and transforming it into the energy of
@@ -26,7 +34,16 @@ export default () => (
 						currently also working on research of VR and Bio-art study.
           </p>
         </div>
-      </div>
+      </FadeIn>
+    </div>
+    <FadeIn
+      x={{
+        start: -30,
+        end: 0,
+        stiffness: 50,
+        damping: 8,
+      }}
+    >
       <div>
         <ul className={styles.snList}>
           <li>

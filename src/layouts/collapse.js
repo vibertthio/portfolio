@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-// import { Motion, spring } from 'react-motion';
+import FadeIn from '../utils/fade-in';
 
 import styles from './index.module.css';
 import menuIcon from '../../assets/images/menu-icon.png';
@@ -63,7 +63,23 @@ class Collapse extends Component {
       </div>
     </div>
     <button className={`${styles.btn} ${styles.menuBtn}`} onClick={() => this.onClick()}>
-      <img className={styles.menuIcon} src={menuIcon} alt="menu-icon" />
+      <FadeIn
+        right
+        opacity={{
+							start: 0,
+							end: 1,
+							stiffness: 100,
+							damping: 5,
+						}}
+        x={{
+							start: 30,
+							end: 0,
+							stiffness: 100,
+							damping: 15,
+						}}
+      >
+        <img className={styles.menuIcon} src={menuIcon} alt="menu-icon" />
+      </FadeIn>
     </button>
   </div>
 		);

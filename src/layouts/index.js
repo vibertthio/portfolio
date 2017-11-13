@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Loadable from 'react-loading-overlay';
+import FadeIn from '../utils/fade-in';
 
 import styles from './index.module.css';
 import Collapse from './collapse';
@@ -19,11 +20,28 @@ const NabBar = props => (
         to="/"
         style={{ textShadow: 'none', backgroundImage: 'none' }}
       >
-        <img className={styles.flashLogo} src={logo} alt="logo" />
-        <div className={styles.navLogo}>
-          <h3>{props.site.siteMetadata.title}</h3>
-        </div>
-        <img className={styles.signBlack} src={signBlack} alt="sign-black" />
+        <FadeIn
+          opacity={{
+						start: 0,
+						end: 1,
+						stiffness: 120,
+						damping: 5,
+					}}
+          x={{
+						start: 50,
+						end: 0,
+						stiffness: 100,
+						damping: 20,
+					}}
+        >
+          <div style={{ display: 'inline' }}>
+            <img className={styles.flashLogo} src={logo} alt="logo" />
+            <div className={styles.navLogo}>
+              <h3>{props.site.siteMetadata.title}</h3>
+            </div>
+            <img className={styles.signBlack} src={signBlack} alt="sign-black" />
+          </div>
+        </FadeIn>
       </Link>
       <NavList />
       <Collapse />
@@ -70,7 +88,12 @@ class Layout extends Component {
 
 	render() {
 		return (
-  <Loadable background="rgba(200, 200, 200, 1)" style={{ height: '100%' }} active={this.state.loading} spinner>
+  <Loadable
+    background="rgba(200, 200, 200, 1)"
+    style={{ height: '100%' }}
+    active={this.state.loading}
+    spinner
+  >
     {!this.state.loading && (
     <div
       className={`
@@ -80,7 +103,7 @@ class Layout extends Component {
     >
       <NabBar site={this.props.data.site} sticky={false} />
       {this.state.scrolledDown ? <NabBar site={this.props.data.site} sticky /> : ''}
-      {this.state.scrolledDown ? <div className={styles.stickyBackground} /> : ''}
+      <div className={`${styles.stickyBackground} ${(this.state.scrolledDown) && styles.appear}`} />
       <div className={styles.body}>{this.props.children()}</div>
       <footer>
         <div className={styles.footerContainer}>
