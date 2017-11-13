@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import Scroll from 'react-scroll';
-import { Motion, spring } from 'react-motion';
+import Loadable from 'react-loading-overlay';
 
 import styles from './index.module.css';
 import Collapse from './collapse';
 import NavList from './nav-list';
 import signBlack from '../../assets/images/sign-black.png';
 import logo from '../../assets/images/logo.png';
-
-const { Events, scrollSpy } = Scroll;
 
 const NabBar = props => (
   <header
@@ -34,26 +31,16 @@ const NabBar = props => (
   </header>
 );
 
-
 class Layout extends Component {
 	constructor() {
 		super();
 		this.state = {
+			loading: true,
 			scrolledDown: false,
 		};
 	}
 
 	componentDidMount() {
-		Events.scrollEvent.register('begin', (to, ...args) => {
-			console.log('begin', args);
-		});
-
-		Events.scrollEvent.register('end', (to, ...args) => {
-			console.log('end', args);
-		});
-
-		scrollSpy.update();
-
 		window.addEventListener('scroll', () => {
 			console.log('scroll!');
 			console.log(`scroll Y: ${window.scrollY}`);
@@ -69,26 +56,40 @@ class Layout extends Component {
 				scrolledDown,
 			});
 		});
+
+		window.setTimeout(() => this.hideLoadingOverlay(), 1000);
 	}
 
-	componentWillUnmount() {
-		Events.scrollEvent.remove('begin');
-		Events.scrollEvent.remove('end');
+	componentWillUnmount() {}
+	hideLoadingOverlay() {
+		console.log('hide overlay');
+		this.setState({
+			loading: false,
+		});
 	}
 
 	render() {
 		return (
-  <div className={`${styles.layout} ${this.state.scrolledDown ? '' : styles.scrolled}`}>
-    <NabBar site={this.props.data.site} sticky={false} />
-    {this.state.scrolledDown ? <NabBar site={this.props.data.site} sticky /> : ''}
-    {this.state.scrolledDown ? <div className={styles.stickyBackground} /> : ''}
-    <div className={styles.body}>{this.props.children()}</div>
-    <footer>
-      <div className={styles.footerContainer}>
-        <h5 className={styles.footerContent}>2017 @ Vibert Thio</h5>
-      </div>
-    </footer>
-  </div>
+  <Loadable style={{ height: '100%' }} active={this.state.loading} spinner>
+    {!this.state.loading && (
+    <div
+      className={`
+          ${styles.layout}
+          ${this.state.loading ? styles.hidden : ''}
+          ${this.state.scrolledDown ? '' : styles.scrolled}`}
+    >
+      <NabBar site={this.props.data.site} sticky={false} />
+      {this.state.scrolledDown ? <NabBar site={this.props.data.site} sticky /> : ''}
+      {this.state.scrolledDown ? <div className={styles.stickyBackground} /> : ''}
+      <div className={styles.body}>{this.props.children()}</div>
+      <footer>
+        <div className={styles.footerContainer}>
+          <h5 className={styles.footerContent}>2017 @ Vibert Thio</h5>
+        </div>
+      </footer>
+    </div>
+				)}
+  </Loadable>
 		);
 	}
 }
