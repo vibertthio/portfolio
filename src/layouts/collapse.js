@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
+// import { Motion, spring } from 'react-motion';
+
 import styles from './index.module.css';
 import menuIcon from '../../assets/images/menu-icon.png';
 import closeIcon from '../../assets/images/cross-icon.png';

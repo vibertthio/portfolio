@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Scroll from 'react-scroll';
+import { Motion, spring } from 'react-motion';
 
 import styles from './index.module.css';
 import Collapse from './collapse';
@@ -32,6 +33,7 @@ const NabBar = props => (
     </div>
   </header>
 );
+
 
 class Layout extends Component {
 	constructor() {
