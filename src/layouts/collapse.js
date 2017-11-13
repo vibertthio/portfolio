@@ -7,6 +7,18 @@ import menuIcon from '../../assets/images/menu-icon.png';
 import closeIcon from '../../assets/images/cross-icon.png';
 import signWhite from '../../assets/images/sign-white.png';
 
+const ListLink = props => (
+  <Link
+    className={`${styles.link} ${
+			props.to === props.path ? styles.active : styles.inactive
+		}`}
+    onClick={() => this.closeMenu()}
+    to={props.to}
+  >
+    <p>{props.children}</p>
+  </Link>
+);
+
 class Collapse extends Component {
 	constructor() {
 		super();
@@ -51,15 +63,15 @@ class Collapse extends Component {
       </button>
       <img className={styles.signWhite} src={signWhite} alt="sign-black" />
       <div className={styles.overlayContent}>
-        <Link className={styles.link} onClick={() => this.closeMenu()} to="/">
-          <p>Home</p>
-        </Link>
-        <Link className={styles.link} onClick={() => this.closeMenu()} to="/projects/">
-          <p>Projects</p>
-        </Link>
-        <Link className={styles.link} onClick={() => this.closeMenu()} to="/blogs/">
-          <p>Blogs</p>
-        </Link>
+        <ListLink to="/" path={this.props.path}>
+							Home
+        </ListLink>
+        <ListLink to="/projects/" path={this.props.path}>
+							Projects
+        </ListLink>
+        <ListLink to="/blogs/" path={this.props.path}>
+							Blogs
+        </ListLink>
       </div>
     </div>
     <button className={`${styles.btn} ${styles.menuBtn}`} onClick={() => this.onClick()}>

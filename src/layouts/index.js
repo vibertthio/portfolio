@@ -43,8 +43,8 @@ const NabBar = props => (
           </div>
         </FadeIn>
       </Link>
-      <NavList />
-      <Collapse />
+      <NavList path={props.path} />
+      <Collapse path={props.path} />
     </div>
   </header>
 );
@@ -87,7 +87,7 @@ class Layout extends Component {
 	}
 
 	render() {
-    console.log(`current path: ${this.props.location}`);
+		console.log(`current path: ${this.props.location.pathname}`);
 		return (
   <Loadable
     background="rgba(200, 200, 200, 1)"
@@ -102,9 +102,17 @@ class Layout extends Component {
           ${this.state.loading ? styles.hidden : ''}
           ${this.state.scrolledDown ? '' : styles.scrolled}`}
     >
-      <NabBar site={this.props.data.site} sticky={false} />
-      {this.state.scrolledDown ? <NabBar site={this.props.data.site} sticky /> : ''}
-      <div className={`${styles.stickyBackground} ${(this.state.scrolledDown) && styles.appear}`} />
+      <NabBar
+        site={this.props.data.site}
+        path={this.props.location.pathname}
+        sticky={false}
+      />
+      {this.state.scrolledDown && (
+      <NabBar site={this.props.data.site} path={this.props.location.pathname} sticky />
+						)}
+      <div
+        className={`${styles.stickyBackground} ${this.state.scrolledDown && styles.appear}`}
+      />
       <div className={styles.body}>{this.props.children()}</div>
       <footer>
         <div className={styles.footerContainer}>
