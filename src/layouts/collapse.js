@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import Link, { withPrefix } from 'gatsby-link';
+import ClickOutside from 'react-click-outside';
 import FadeIn from '../utils/fade-in';
 
 import styles from './collapse.module.css';
 import layoutStyles from './index.module.css';
 import menuIcon from '../../assets/images/menu-icon.png';
-import closeIcon from '../../assets/images/cross-icon.png';
 import signWhite from '../../assets/images/sign-white.png';
+import fbIcon from '../../assets/images/fb-icon-white.svg';
+import ghIcon from '../../assets/images/gh-icon-white.svg';
+import mdIcon from '../../assets/images/medium-icon-white.svg';
+// import closeIcon from '../../assets/images/cross-icon.png';
 
 const ListLink = props => (
   <Link
@@ -56,26 +60,61 @@ class Collapse extends Component {
   <div style={{ float: 'right' }}>
     <div id="menu" className={styles.overlay}>
       <div className={styles.menuContainer}>
-        <img className={styles.signWhite} src={signWhite} alt="sign-black" />
-        <div className={styles.overlayContent}>
-          <ListLink to="/" path={this.props.path} onClick={() => this.closeMenu()}>
-								Home
-          </ListLink>
-          <ListLink to="/projects/" path={this.props.path} onClick={() => this.closeMenu()}>
-								Projects
-          </ListLink>
-          <ListLink to="/blogs/" path={this.props.path} onClick={() => this.closeMenu()}>
-								Blogs
-          </ListLink>
-          {this.state.open && (
-          <button
-            href=""
-            className={`${styles.closeBtn} ${styles.btn}`}
-            onClick={() => this.closeMenu()}
-          >
-            {/* <img className={styles.closeIcon} src={closeIcon} alt="close-icon" /> */}
-          </button>
-							)}
+        <ClickOutside className={styles.clickDetection} onClickOutside={() => this.closeMenu()}>
+          <div className={styles.overlayContent}>
+            <ListLink to="/" path={this.props.path} onClick={() => this.closeMenu()}>
+									Home
+            </ListLink>
+            <ListLink to="/projects/" path={this.props.path} onClick={() => this.closeMenu()}>
+									Projects
+            </ListLink>
+            <ListLink to="/blogs/" path={this.props.path} onClick={() => this.closeMenu()}>
+									Blogs
+            </ListLink>
+            {/* }{this.state.open && (
+							<button
+							href=""
+							className={`${styles.closeBtn} ${styles.btn}`}
+							onClick={() => this.closeMenu()}
+							>
+							<img className={styles.closeIcon} src={closeIcon} alt="close-icon" />
+							</button>
+							)} */}
+          </div>
+        </ClickOutside>
+        <div className={styles.foot}>
+          <img className={styles.signWhite} src={signWhite} alt="sign-black" />
+          <div className={styles.snContainer}>
+            <ul className={styles.snList}>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.facebook.com/vibert.thio"
+                >
+                  <img src={fbIcon} className={styles.snIcon} alt="fb-icon" />
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/vibertthio"
+                >
+                  <img src={ghIcon} className={styles.snIcon} alt="gh-icon" />
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://medium.com/@vibertthio"
+                >
+                  <img src={mdIcon} className={styles.snIcon} alt="medium-icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
