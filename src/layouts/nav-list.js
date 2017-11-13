@@ -1,11 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import Link, { withPrefix } from 'gatsby-link';
 import styles from './index.module.css';
 import FadeIn from '../utils/fade-in';
 
 const ListLink = props => (
   <li style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
-    <Link to={props.to} className={`${styles.navLink} ${(props.to === props.path) ? styles.active : styles.inactive}`}>{props.children}</Link>
+    <Link to={props.to} className={`${styles.navLink} ${(withPrefix(props.to) === props.path) ? styles.active : styles.inactive}`}>{props.children}</Link>
   </li>
 );
 
@@ -26,7 +26,7 @@ export default props => (
 				damping: 5,
 			}}
       x={{
-				start: 90,
+				start: 30,
 				end: 0,
 				stiffness: 50,
 				damping: 20,

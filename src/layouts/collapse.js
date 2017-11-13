@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link';
+import Link, { withPrefix } from 'gatsby-link';
 import FadeIn from '../utils/fade-in';
 
 import styles from './index.module.css';
@@ -9,10 +9,8 @@ import signWhite from '../../assets/images/sign-white.png';
 
 const ListLink = props => (
   <Link
-    className={`${styles.link} ${
-			props.to === props.path ? styles.active : styles.inactive
-		}`}
-    onClick={() => this.closeMenu()}
+    className={`${styles.link} ${withPrefix(props.to) === props.path ? styles.active : styles.inactive}`}
+    onClick={() => props.onClick()}
     to={props.to}
   >
     <p>{props.children}</p>
@@ -57,19 +55,19 @@ class Collapse extends Component {
       <button
         href=""
         className={`${styles.closeBtn} ${styles.btn}`}
-        onClick={() => this.onClick()}
+        onClick={() => this.closeMenu()}
       >
         <img className={styles.closeIcon} src={closeIcon} alt="close-icon" />
       </button>
       <img className={styles.signWhite} src={signWhite} alt="sign-black" />
       <div className={styles.overlayContent}>
-        <ListLink to="/" path={this.props.path}>
+        <ListLink to="/" path={this.props.path} onClick={() => this.closeMenu()}>
 							Home
         </ListLink>
-        <ListLink to="/projects/" path={this.props.path}>
+        <ListLink to="/projects/" path={this.props.path} onClick={() => this.closeMenu()}>
 							Projects
         </ListLink>
-        <ListLink to="/blogs/" path={this.props.path}>
+        <ListLink to="/blogs/" path={this.props.path} onClick={() => this.closeMenu()}>
 							Blogs
         </ListLink>
       </div>

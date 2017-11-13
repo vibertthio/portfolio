@@ -173,6 +173,7 @@ NavBar
 
 .navLink.active h4 {
 	opacity: 1;
+	color: rgba(43, 55, 15, 1);
 }
 
 .inactive h4 {

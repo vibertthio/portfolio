@@ -28,7 +28,7 @@ const NabBar = props => (
 						damping: 5,
 					}}
           x={{
-						start: 50,
+						start: 30,
 						end: 0,
 						stiffness: 100,
 						damping: 20,
