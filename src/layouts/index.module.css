@@ -169,9 +169,6 @@ NavBar
 	/*-webkit-animation: fadein 0.8s;
 		 -moz-animation: fadein 0.8s;
 					animation: fadein 0.8s;*/
-
-	transition: 0.5s;
-	-webkit-transition: opacity 0.5s;
 }
 .fixedNavBar {
 	width: inherit;
@@ -192,9 +189,6 @@ NavBar
   -webkit-animation: fadein 0.3s;
      -moz-animation: fadein 0.3s;
           animation: fadein 0.3s;
-
-	transition: 0.5s;
-	-webkit-transition: opacity 0.5s;
 }
 
 @keyframes fadein {
