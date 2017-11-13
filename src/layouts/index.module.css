@@ -36,86 +36,6 @@
 	letter-spacing: 0;
 }
 
-.overlay {
-	/* Height & width depends on how you want to reveal the overlay (see JS below) */
-	height: 0%;
-	width: 100%;
-	position: fixed; /* Stay in place */
-	z-index: 3; /* Sit on top */
-	left: 0;
-	top: 0;
-	background-color: rgb(0, 0, 0); /* Black fallback color */
-	background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
-	overflow-x: hidden; /* Disable horizontal scroll */
-	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  -webkit-transition: 0.5s;
-	text-align: center;
-}
-
-.oerlayContent {
-	position: relative;
-	top: 25%; /* 25% from the top */
-	width: 100%; /* 100% width */
-	text-align: center; /* Centered text/links */
-	margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-.overlay a {
-	text-align: center;
-}
-/* The navigation links inside the overlay */
-.overlay .link {
-	width: 50%;
-	margin: 1rem auto;
-	padding: 8px;
-	text-decoration: none;
-	font-size: 3rem;
-	color: #818181;
-	display: block; /* Display block instead of inline */
-	transition: 0.3s; /* Transition effects on hover (color) */
-	-webkit-transition: 0.3s;
-}
-
-.link p {
-	font-family: 'Oswald';
-	font-size: 2.5rem;
-	letter-spacing: 0.3rem;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-.signWhite {
-	display: block;
-	height: 5rem;
-	margin: auto;
-	opacity: 0.6;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay .link:hover,
-.overlay .link:focus {
-	color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.closeBtn {
-	width: 17%;
-	margin-top: 3rem;
-	opacity: 0.5;
-	transition: 0.5s;
-	-webkit-transition: 0.5s;
-}
-.closeBtn:hover {
-	opacity: 0.9;
-	text-shadow: 10px 10px white;
-}
-
 .logoLink {
 	width: inherit;
 
@@ -176,7 +96,7 @@ NavBar
 	color: rgba(43, 55, 15, 1);
 }
 
-.inactive h4 {
+.navLink.inactive h4 {
 	opacity: 0.4;
 
 	-webkit-transition: opacity 0.3s ease;
