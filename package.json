@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "vibert-thio-portfolio",
+  "description": "vibert thio's portfolio",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
