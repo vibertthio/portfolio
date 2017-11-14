@@ -49,6 +49,11 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 			fontSize: rhythm(0.5),
 			lineHeight: rhythm(0.4),
 		},
+		blockquote: {
+			borderLeft: `${rhythm(6 / 16)} solid #AAA`,
+			marginLeft: 0,
+			marginRight: 0,
+		},
 	});
 
 const typography = new Typography(fairyGateTheme);

@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Loadable from 'react-loading-overlay';
+import 'prismjs/themes/prism-solarizedlight.css';
+// import 'prismjs/themes/prism-tomorrow.css';
+// import 'prismjs/themes/prism.css';
 import FadeIn from '../utils/fade-in';
 
+import './index.css';
 import styles from './index.module.css';
 import Collapse from './collapse';
 import NavList from './nav-list';

@@ -3,13 +3,11 @@ title: "First Post"
 date: "2017-08-10"
 ---
 
-Pandas are really sweet.
-
-Here's a video of a panda eating sweets.  
+<br>
 
 > javascript code block test
 
-```javascript
+```jsx{1-2,22}
 import React from 'react';
 // import ReactHtmlParser from 'react-html-parser';
 
@@ -22,6 +20,8 @@ export default ({ data }) => {
   </div>
 	);
 };
+
 ```
+<br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
