@@ -64,8 +64,7 @@ class Layout extends Component {
 
 	componentDidMount() {
 		window.addEventListener('scroll', () => {
-			console.log('scroll!');
-			console.log(`scroll Y: ${window.scrollY}`);
+			// console.log(`scroll Y: ${window.scrollY}`);
 			let scrolledDown;
 			const y = window.scrollY;
 			if (y > 60) {
