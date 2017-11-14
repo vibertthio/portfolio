@@ -1,10 +1,11 @@
 import React from 'react';
 import { Motion, spring } from 'react-motion';
 
+const no = () => {};
 class FadeIn extends React.Component {
 	constructor() {
 		super();
-		console.log('constructing FadeIn component..');
+		no();
 	}
 
 	render() {
