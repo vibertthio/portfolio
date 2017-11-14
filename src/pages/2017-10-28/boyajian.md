@@ -6,8 +6,8 @@ date: "2017-10-28"
 
 A 3D system for performance
 
-<!-- ![demo](./banner.png) -->
-![demo](https://drive.google.com/file/d/1znKw4nCc7PDoVHq2E3-GLr4Qu7BerGCv/view?usp=sharing)
+![demo](./banner.png)
+<!-- ![demo](https://drive.google.com/file/d/1znKw4nCc7PDoVHq2E3-GLr4Qu7BerGCv/view?usp=sharing) -->
 
 It's prototyped in Processing.
 
