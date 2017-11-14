@@ -1,10 +1,10 @@
 module.exports = {
-	pathPrefix: `/`,
+	pathPrefix: `/portfolio`,
 	siteMetadata: {
 		title: 'Vibert Thio',
 		author: '@vibertthio',
 		description: 'real',
-		homepage: 'vibertthio.github.io/portfolio',
+		homepage: 'vibertthio.github.io/',
 	},
 	plugins: [
 		{
