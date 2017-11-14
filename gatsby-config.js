@@ -36,9 +36,11 @@ module.exports = {
 						},
 					},
 					'gatsby-remark-responsive-iframe',
+					`gatsby-remark-prismjs`,
 				],
 			},
 		},
 		'gatsby-plugin-catch-links',
+		`gatsby-plugin-sharp`,
 	],
 };

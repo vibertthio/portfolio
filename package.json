@@ -9,7 +9,6 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "favicons-webpack-plugin": "^0.0.7",
     "gatsby": "^1.9.73",
     "gatsby-link": "^1.6.22",
     "gatsby-plugin-catch-links": "^1.0.9",
@@ -17,6 +16,7 @@
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-remark-copy-linked-files": "^1.5.20",
     "gatsby-remark-images": "^1.5.31",
+    "gatsby-remark-prismjs": "^1.2.9",
     "gatsby-remark-responsive-iframe": "^1.4.14",
     "gatsby-source-filesystem": "^1.5.8",
     "gatsby-transformer-remark": "^1.7.20",
