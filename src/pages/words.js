@@ -32,10 +32,6 @@ export default ({ data }) => (
       >
         {node.frontmatter.title}
       </h3>
-      <p style={{ display: 'inline', textDecoration: 'none' }}>
-        {' '}
-									- {node.frontmatter.date}
-      </p>
       <p className={styles.excerpt}>{node.excerpt}</p>
       {/* <p>{node.excerpt}</p> */}
     </Link>
