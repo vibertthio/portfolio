@@ -1,5 +1,6 @@
 import Typography from 'typography';
 import CodePlugin from 'typography-plugin-code';
+import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 import fairyGateTheme from 'typography-theme-fairy-gates';
 
 fairyGateTheme.googleFonts = [
@@ -25,7 +26,7 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 		},
 		h2: {
 			letterSpacing: rhythm(0.2),
-			fontSize: rhythm(1.0),
+			fontSize: rhythm(2.0),
 			marginBottom: rhythm(1 / 2),
 			marginTop: rhythm(2),
 		},
@@ -53,6 +54,21 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 			borderLeft: `${rhythm(6 / 16)} solid #AAA`,
 			marginLeft: 0,
 			marginRight: 0,
+		},
+		em: {
+			// fontFamily: 'Open Sans',
+			opacity: 0.5,
+			fontSize: rhythm(0.5),
+		},
+		[MOBILE_MEDIA_QUERY]: {
+			blockquote: {
+				borderLeft: `${rhythm(3 / 16)} solid #AAA`,
+				// color: gray(41),
+				// paddingLeft: rhythm(9 / 16),
+				// fontStyle: 'italic',
+				// marginLeft: rhythm(-3 / 4),
+				// marginRight: 0,
+			},
 		},
 	});
 

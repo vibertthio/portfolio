@@ -7,3 +7,4 @@ author: Vibert Thio
 beatmap  
 
 fuck yeah
+![test](./images/Étude/img-01.png)  

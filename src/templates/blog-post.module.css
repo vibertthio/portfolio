@@ -1,0 +1,5 @@
+.container {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  max-width: 800px;
+}

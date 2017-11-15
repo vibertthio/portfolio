@@ -22,6 +22,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 				allMarkdownRemark {
 					edges {
 						node {
+							html
 							fields {
 								slug
 							}
@@ -31,6 +32,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 			}
 		`).then((result) => {
 			result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+				// console.log(node.html);
 				createPage({
 					path: node.fields.slug,
 					component: path.resolve('./src/templates/blog-post.js'),

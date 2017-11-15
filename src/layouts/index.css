@@ -40,6 +40,10 @@
 .gatsby-highlight pre[class*="language-"] {
   background-color: rgba(240, 240 240, 0.8);
 }
+
+.gatsby-resp-image-wrapper {
+  max-width: 800px !important;
+}
 @media screen and (max-width: 480px) {
   .gatsby-resp-image-wrapper {
     margin: 0 -1.2rem !important;
