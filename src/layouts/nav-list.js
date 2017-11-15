@@ -44,8 +44,8 @@ export default props => (
       <ListDevider>
         <h4 className={styles.navDevider}>|</h4>
       </ListDevider>
-      <ListLink to="/blogs/" path={props.path}>
-        <h4 className={styles.navItem}>Blogs</h4>
+      <ListLink to="/words/" path={props.path}>
+        <h4 className={styles.navItem}>Words</h4>
       </ListLink>
     </FadeIn>
   </ul>

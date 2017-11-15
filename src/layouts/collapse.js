@@ -68,8 +68,8 @@ class Collapse extends Component {
             <ListLink to="/projects/" path={this.props.path} onClick={() => this.closeMenu()}>
 									Projects
             </ListLink>
-            <ListLink to="/blogs/" path={this.props.path} onClick={() => this.closeMenu()}>
-									Blogs
+            <ListLink to="/words/" path={this.props.path} onClick={() => this.closeMenu()}>
+									Words
             </ListLink>
             {/* }{this.state.open && (
 							<button
