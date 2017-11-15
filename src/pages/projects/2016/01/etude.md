@@ -4,9 +4,13 @@ date: "2016-11-02"
 author: Vibert Thio
 ---
 
+<!-- [link](./#background) -->
+
 > 2016.9 – 2017.9
 
 #####Rehabilitation + Arts + Game + Performance, as a new approach of art therapy.
+
+<!-- **_Rehabilitation + Arts + Game + Performance, as a new approach of art therapy._** -->
 
 
 <br>
