@@ -17,8 +17,11 @@
   min-height: 35rem;
 }
 
+.titleContainer {
+  margin-bottom: 1rem;
+}
+
 .title {
-  margin-bottom: 1em;
   font-size: 3em;
   font-family: "Oswald";
   font-weight: 300;
@@ -87,12 +90,17 @@
 }
 
 @media only screen and (max-width: 1100px) {
+  .titleContainer {
+    margin-bottom: 1rem;
+  }
+
   .title {
     margin-bottom: 0.4em;
     font-size: 2.8em;
     letter-spacing: 0.5em;
   }
   .projectImgContainer {
+    display: block;
     position: relative;
     float: left;
     margin-left: 0;
@@ -111,6 +119,7 @@
 
 
 @media only screen and (max-width: 720px) {
+
   .title {
     margin-bottom: 0.3em;
     font-size: 2.8em;
@@ -120,10 +129,10 @@
   }
 
   .projectImgContainer {
-    display: block;
     margin: 0;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
+    margin-bottom: 1rem;
     height: 20rem;
   }
 
@@ -136,7 +145,31 @@
   }
 }
 
+@media only screen and (max-width: 620px) {
+  .titleContainer {
+    margin-bottom: 0;
+  }
+
+  .projectImgContainer {
+    margin-bottom: 0.4rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .titleContainer {
+    margin-bottom: -1.5rem;
+  }
+
+  .projectImgContainer {
+    margin-bottom: -1rem;
+  }
+}
+
+
 @media only screen and (max-width: 480px) {
+  .titleContainer {
+    margin-bottom: 1rem;
+  }
+
   .projectContainer {
     position: relative;
     display: block;
@@ -156,6 +189,7 @@
     margin: 0;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
+    margin-bottom: 0.8rem;
     height: 15rem;
   }
 

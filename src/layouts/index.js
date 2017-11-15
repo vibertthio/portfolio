@@ -61,33 +61,31 @@ class Layout extends Component {
 			scrolledDown: false,
 		};
 	}
-
 	componentDidMount() {
-		window.addEventListener('scroll', () => {
-			// console.log(`scroll Y: ${window.scrollY}`);
-			let scrolledDown;
-			const y = window.scrollY;
-			if (y > 60) {
-				scrolledDown = true;
-			} else {
-				scrolledDown = false;
-			}
-
-			this.setState({
-				scrolledDown,
-			});
-		});
-
+		window.addEventListener('scroll', () => this.scrollHandle());
 		window.setTimeout(() => this.hideLoadingOverlay(), 1000);
 	}
-
-	componentWillUnmount() {}
+	componentWillUnmount() {
+		window.removeEventListener('scroll', () => this.scrollHandle());
+	}
 	hideLoadingOverlay() {
 		this.setState({
 			loading: false,
 		});
 	}
+	scrollHandle() {
+		let scrolledDown;
+		const y = window.scrollY;
+		if (y > 60) {
+			scrolledDown = true;
+		} else {
+			scrolledDown = false;
+		}
 
+		this.setState({
+			scrolledDown,
+		});
+	}
 	render() {
 		// console.log(`current path: ${this.props.location.pathname}`);
 		return (

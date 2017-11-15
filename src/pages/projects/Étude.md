@@ -1,9 +1,9 @@
 ---
 title: "Étude"
-date: "2016-11-01"
+date: "2016-11-02"
 author: Vibert Thio
 ---
 
-etude  
+Étude  
 
 fuck yeah
