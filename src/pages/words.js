@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import FadeIn from '../utils/fade-in';
+import styles from './words.module.css';
 
 export default ({ data }) => (
   <div>
@@ -20,8 +21,9 @@ export default ({ data }) => (
 				// console.log(`test: ${reg.test(node.fields.slug)}`);
 				if (reg.test(node.fields.slug)) {
 					return (
-  <div key={node.id}>
+  <div key={node.id} className={styles.link}>
     <Link to={node.fields.slug}>
+      <p className={styles.date}>{node.frontmatter.date}</p>
       <h3
         style={{
 										display: 'inline',
@@ -34,13 +36,13 @@ export default ({ data }) => (
         {' '}
 									- {node.frontmatter.date}
       </p>
-      <p>{node.excerpt}</p>
+      <p className={styles.excerpt}>{node.excerpt}</p>
       {/* <p>{node.excerpt}</p> */}
     </Link>
   </div>
 					);
 				}
-					return '';
+				return '';
 			})}
     </FadeIn>
   </div>
@@ -60,7 +62,7 @@ export const query = graphql`
 					fields {
 						slug
 					}
-					excerpt
+					excerpt(pruneLength: 50)
 				}
 			}
 		}

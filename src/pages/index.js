@@ -12,7 +12,7 @@ export default () => (
     <div>
       <FadeIn
         x={{
-					start: 90,
+					start: 70,
 					end: 0,
 					stiffness: 50,
 					damping: 20,

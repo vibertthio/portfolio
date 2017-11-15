@@ -1,0 +1,18 @@
+.link {
+  margin-top: 0;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.link p {
+  font-family: 'Open Sans';
+  color: rgba(100, 100, 100, 1);
+}
+
+.link p.date {
+  border-left: 0.3rem solid #AAA;
+  font-family: 'Oswald';
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  color: rgba(100, 100, 100, 1);
+}
