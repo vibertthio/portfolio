@@ -83,7 +83,6 @@ class Layout extends Component {
 
 	componentWillUnmount() {}
 	hideLoadingOverlay() {
-		console.log('hide overlay');
 		this.setState({
 			loading: false,
 		});
@@ -136,6 +135,7 @@ export const query = graphql`
 		site {
 			siteMetadata {
 				title
+				author
 			}
 		}
 	}
