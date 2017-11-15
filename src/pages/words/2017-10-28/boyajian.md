@@ -1,5 +1,5 @@
 ---
-title: "Boyajian, Coming.."
+title: "Boyajian"
 date: "2017-10-28"
 ---
 
