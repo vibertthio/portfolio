@@ -51,6 +51,7 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 			marginBottom: rhythm(0.5),
 		},
 		a: {
+			color: '#000',
 			fontFamily: 'Oswald',
 			textDecoration: 'none',
 			textShadow: 'none',

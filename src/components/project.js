@@ -57,8 +57,24 @@ class Project extends React.Component {
   />
 							)}
         </div>
-        <div className={styles.descriptionContainer}>
-          <p className={styles.description}>{this.props.content}</p>
+        <div className={styles.textContainer}>
+          <div className={styles.descriptionContainer}>
+            <p className={styles.description}>{this.props.content}</p>
+          </div>
+          <div className={styles.linksContainer}>
+            {this.props.links.map(l => (
+              <div key={l.url} className={styles.linkContainer}>
+                <a
+                  className={styles.projectLink}
+                  href="https://vibertthio.github.io/av_exp/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {`> ${l.name}`}
+                </a>
+              </div>
+								))}
+          </div>
         </div>
       </div>
     </FadeIn>

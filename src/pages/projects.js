@@ -19,26 +19,27 @@ const Projects = ({ data }) => (
   <div>
     <ul style={{ margin: '0' }}>
       {projects.map((p, index) => {
-					const node = findTitle(data.allMarkdownRemark.edges, p.title);
-					const dest = ((node) ? node.fields.slug : '');
-					return (
+				const node = findTitle(data.allMarkdownRemark.edges, p.title);
+				const dest = node ? node.fields.slug : '';
+				return (
   <div className={styles.projectListItem} key={p.title}>
     <li>
       <Project
         title={p.title}
         index={index}
         content={ReactHtmlParser(p.content)}
+        links={p.links}
         img={p.img}
         to={dest}
       />
     </li>
     {index < projects.length - 1 ? <hr className={styles.projectDevider} /> : ''}
   </div>
-					);
-				})}
+				);
+			})}
     </ul>
   </div>
-	);
+);
 
 export default Projects;
 

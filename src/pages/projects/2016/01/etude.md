@@ -6,7 +6,7 @@ author: Vibert Thio
 
 > 2016.9 – 2017.9
 
-#####Rehabilitation + Art + Game + Performance, as a new approach of art therapy.
+#####Rehabilitation + Arts + Game + Performance, as a new approach of art therapy.
 
 
 <br>
@@ -17,7 +17,7 @@ during the exhibition in Taipei. (2016.11)*
 
 ##Background
 
-> 062720150832    484     15      44 %    18-29    ∞
+> 062720150832    484     15     44 %    18-29    ∞
 
 These numbers represent an incident that shocked Taiwanese society—the Formosa Fun Coast explosion.
 
