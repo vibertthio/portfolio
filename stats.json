@@ -1,36 +1,48 @@
 {
   "assetsByChunkName": {
+    "path---words": [
+      "path---words-8630787280e8072a38e2.js",
+      "path---words-8630787280e8072a38e2.js.map"
+    ],
+    "path---words-2017-08-11-hello-world": [
+      "path---words-2017-08-11-hello-world-77cbc715ed7d68761746.js",
+      "path---words-2017-08-11-hello-world-77cbc715ed7d68761746.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-50523967d9b580b7b7b8.js",
-      "component---src-pages-index-js-50523967d9b580b7b7b8.js.map"
+      "component---src-pages-index-js-1a341a23f1a769545b51.js",
+      "component---src-pages-index-js-1a341a23f1a769545b51.js.map"
+    ],
+    "path---words-2017-10-28-boyajian": [
+      "path---words-2017-10-28-boyajian-fc6d028a76f6559da634.js",
+      "path---words-2017-10-28-boyajian-fc6d028a76f6559da634.js.map"
+    ],
+    "path---projects-2016-01-etude": [
+      "path---projects-2016-01-etude-f9b810d89441e17d8172.js",
+      "path---projects-2016-01-etude-f9b810d89441e17d8172.js.map"
     ],
     "path---": [
-      "path----0b8c1da0fb792e0ef891.js",
-      "path----0b8c1da0fb792e0ef891.js.map"
-    ],
-    "path---2017-10-28-boyajian": [
-      "path---2017-10-28-boyajian-fc4b07a3a82d40051baa.js",
-      "path---2017-10-28-boyajian-fc4b07a3a82d40051baa.js.map"
+      "path----0b7de2ef670afefe2da2.js",
+      "path----0b7de2ef670afefe2da2.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-a94a8e028e8bd9b686cc.js",
       "component---src-pages-contact-js-a94a8e028e8bd9b686cc.js.map"
     ],
+    "component---src-pages-words-js": [
+      "component---src-pages-words-js-48529b10cd2b7dfc1f80.js",
+      "component---src-pages-words-js-48529b10cd2b7dfc1f80.js.map"
+    ],
     "path---projects": [
-      "path---projects-1db04e5021b40904aca6.js",
-      "path---projects-1db04e5021b40904aca6.js.map"
+      "path---projects-033fc85939a3d687550f.js",
+      "path---projects-033fc85939a3d687550f.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-9356d8315256fb69862f.js",
-      "component---src-templates-blog-post-js-9356d8315256fb69862f.js.map"
+      "component---src-templates-blog-post-js-4f3c888a53e1aa6c3a1e.js",
+      "component---src-templates-blog-post-js-4f3c888a53e1aa6c3a1e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d80c815f79b6fb3548a6.js",
-      "component---src-layouts-index-js-d80c815f79b6fb3548a6.js.map"
-    ],
-    "path---blogs": [
-      "path---blogs-eb29d0282d703dac0815.js",
-      "path---blogs-eb29d0282d703dac0815.js.map"
+      "component---src-layouts-index-js-306ec9b88192d43e6d01.js",
+      "component---src-layouts-index-js-306ec9b88192d43e6d01.js.map"
     ],
     "path---index": [
       "path---index-1db04e5021b40904aca6.js",
@@ -41,13 +53,13 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-b157b06282f63bb9f13b.js",
-      "path---my-files-b157b06282f63bb9f13b.js.map"
+      "path---my-files-14192944a02fe0b54bba.js",
+      "path---my-files-14192944a02fe0b54bba.js.map"
     ],
     "commons": [
-      "commons-ce843e0671da6cc81d55.js",
+      "commons-2ca77757bea1c5e24b88.js",
       "build-js-styles.css",
-      "commons-ce843e0671da6cc81d55.js.map",
+      "commons-2ca77757bea1c5e24b88.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-about-css-module-js": [
@@ -58,35 +70,27 @@
       "path---contact-1db04e5021b40904aca6.js",
       "path---contact-1db04e5021b40904aca6.js.map"
     ],
-    "path---2017-08-10-sweet-pandas-eating-sweets": [
-      "path---2017-08-10-sweet-pandas-eating-sweets-e8ed0e6f98f186409a3a.js",
-      "path---2017-08-10-sweet-pandas-eating-sweets-e8ed0e6f98f186409a3a.js.map"
-    ],
     "path---about-css-module": [
       "path---about-css-module-1db04e5021b40904aca6.js",
       "path---about-css-module-1db04e5021b40904aca6.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-766e3b085b1789adf18e.js",
-      "component---src-pages-projects-js-766e3b085b1789adf18e.js.map"
+      "component---src-pages-projects-js-5bf1e67492d19361246c.js",
+      "component---src-pages-projects-js-5bf1e67492d19361246c.js.map"
     ],
-    "path---2017-08-21-pandas-and-bananas": [
-      "path---2017-08-21-pandas-and-bananas-fab177eb2164c126c4ff.js",
-      "path---2017-08-21-pandas-and-bananas-fab177eb2164c126c4ff.js.map"
-    ],
-    "path---2017-08-11-hello-world": [
-      "path---2017-08-11-hello-world-0fee9a424102c6d06607.js",
-      "path---2017-08-11-hello-world-0fee9a424102c6d06607.js.map"
+    "path---words-2017-08-10-sweet-pandas-eating-sweets": [
+      "path---words-2017-08-10-sweet-pandas-eating-sweets-7112c07b179d08b88086.js",
+      "path---words-2017-08-10-sweet-pandas-eating-sweets-7112c07b179d08b88086.js.map"
     ],
     "app": [
-      "app-e917ff541ebb80aa622c.js",
+      "app-1c96c90ab2c5fcc7900c.js",
       "build-js-styles.css",
-      "app-e917ff541ebb80aa622c.js.map",
+      "app-1c96c90ab2c5fcc7900c.js.map",
       "build-js-styles.css.map"
     ],
-    "component---src-pages-blogs-js": [
-      "component---src-pages-blogs-js-ba307647d5fe041188f4.js",
-      "component---src-pages-blogs-js-ba307647d5fe041188f4.js.map"
+    "path---projects-2017-02-beact": [
+      "path---projects-2017-02-beact-bdce239767f397b27840.js",
+      "path---projects-2017-02-beact-bdce239767f397b27840.js.map"
     ]
   }
 }
