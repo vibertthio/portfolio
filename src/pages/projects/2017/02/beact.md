@@ -6,7 +6,7 @@ author: Vibert Thio
 
 > 2017.4 – now
 
-#####DJ and VJ all by yourself in seconds on a webpage. Use React to create beats. [Play Now!](https://beact.herokuapp.com/)
+#####DJ and VJ all by yourself in seconds on a webpage! Use React to create beats. [Play Now!](https://beact.herokuapp.com/)
 
 <br>
 

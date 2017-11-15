@@ -10,6 +10,6 @@ find . -name "*.js" -type f -delete
 cd ..
 
 echo "#### Cleaning cache"
-rm -rf ./cache
+rm -rf ./.cache/
 
 echo "#### Finish cleaning"

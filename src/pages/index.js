@@ -23,7 +23,7 @@ export default () => (
       <FadeIn>
         <div className={styles.aboutContainer}>
           <p>
-						Vibert Thio is digging into cutting-edge tech, and transforming it into the energy of
+						Lit! Vibert Thio is digging into cutting-edge tech, and transforming it into the energy of
 						creating his art pieces in several new forms.
           </p>
           <p>
