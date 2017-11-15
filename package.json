@@ -3,10 +3,12 @@
   "description": "vibert thio's portfolio",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "predev": "./clean.sh",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "predeploy": "./clean.sh"
   },
   "dependencies": {
     "gatsby": "^1.9.73",
