@@ -6,10 +6,9 @@ author: Vibert Thio
 
 > 2017.4 – now
 
-#####DJ and VJ all by yourself in seconds on a webpage. Use React to create beat.  [Play Now!](https://beact.herokuapp.com/)
+#####DJ and VJ all by yourself in seconds on a webpage. Use React to create beats. [Play Now!](https://beact.herokuapp.com/)
 
 <br>
-
 
 <iframe src="https://player.vimeo.com/video/226318485" width="640" height="329" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/226318485">Beact | Web DJ / VJ | Teaser</a> from <a href="https://vimeo.com/user56788864">Vibert Thio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

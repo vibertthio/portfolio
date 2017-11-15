@@ -31,7 +31,7 @@ export default () => (
           </p>
           <p>
 						Mostly, he makes audio/visual art by using Processing(Java), C++ and Javascript. He is
-						currently also working on research of VR and Bio-art study.(test)
+						currently also working on research of VR and Bio-art study.
           </p>
         </div>
       </FadeIn>

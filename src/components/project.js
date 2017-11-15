@@ -18,7 +18,7 @@ class Project extends React.Component {
 	}
 
 	render() {
-		console.log(`project link to: ${this.props.to}`);
+		// console.log(`project link to: ${this.props.to}`);
 		const linked = this.props.to !== '';
 		return (
   <div className={styles.projectContainer}>
