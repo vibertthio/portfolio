@@ -6,8 +6,7 @@ author: Vibert Thio
 
 > 2016.9 – 2017.9
 
-Rehabilitation + Art + Game + Performance,
-as a new approach of art therapy.
+#####Rehabilitation + Art + Game + Performance, as a new approach of art therapy.
 
 <br>
 
