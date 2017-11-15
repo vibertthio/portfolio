@@ -20,6 +20,7 @@ const Projects = ({ data }) => (
     <ul style={{ margin: '0' }}>
       {projects.map((p, index) => {
 					const node = findTitle(data.allMarkdownRemark.edges, p.title);
+					const dest = ((node) ? node.fields.slug : '');
 					return (
   <div className={styles.projectListItem} key={p.title}>
     <li>
@@ -28,7 +29,7 @@ const Projects = ({ data }) => (
         index={index}
         content={ReactHtmlParser(p.content)}
         img={p.img}
-        to={node.fields.slug}
+        to={dest}
       />
     </li>
     {index < projects.length - 1 ? <hr className={styles.projectDevider} /> : ''}

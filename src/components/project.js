@@ -18,14 +18,20 @@ class Project extends React.Component {
 	}
 
 	render() {
+		console.log(`project link to: ${this.props.to}`);
+		const linked = this.props.to !== '';
 		return (
   <div className={styles.projectContainer}>
     <FadeIn>
       <div>
         <div className={styles.titleContainer}>
-          <Link className={styles.titleLink} to={this.props.to}>
-            <h1 className={styles.title}>{this.props.title}</h1>
-          </Link>
+          {linked ? (
+            <Link className={styles.titleLink} to={this.props.to}>
+              <h1 className={styles.title}>{this.props.title}</h1>
+            </Link>
+							) : (
+  <h1 className={styles.title}>{this.props.title}</h1>
+							)}
         </div>
         <div
           className={`
@@ -33,14 +39,23 @@ class Project extends React.Component {
                 ${this.props.index % 2 === 0 ? styles.left : styles.right}
                 ${this.state.loadingImg ? styles.loading : ''}`}
         >
-          <Link to={this.props.to}>
-            <img
-              src={this.props.img}
-              className={styles.projectImg}
-              alt="project-img"
-              onLoad={() => this.handleFinishLoadingImg()}
-            />
-          </Link>
+          {linked ? (
+            <Link to={this.props.to}>
+              <img
+                src={this.props.img}
+                className={styles.projectImg}
+                alt="project-img"
+                onLoad={() => this.handleFinishLoadingImg()}
+              />
+            </Link>
+							) : (
+  <img
+    src={this.props.img}
+    className={styles.projectImg}
+    alt="project-img"
+    onLoad={() => this.handleFinishLoadingImg()}
+  />
+							)}
         </div>
         <div className={styles.descriptionContainer}>
           <p className={styles.description}>{this.props.content}</p>
