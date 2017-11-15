@@ -4,7 +4,7 @@ module.exports = {
 		title: 'Vibert Thio',
 		author: '@vibertthio',
 		description: 'real',
-		homepage: 'vibertthio.github.io/portfolio',
+		homepage: 'https://vibertthio.github.io/portfolio',
 	},
 	plugins: [
 		{
