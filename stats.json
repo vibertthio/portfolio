@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---words": [
-      "path---words-8630787280e8072a38e2.js",
-      "path---words-8630787280e8072a38e2.js.map"
+      "path---words-70c4059ec04ce964d4ab.js",
+      "path---words-70c4059ec04ce964d4ab.js.map"
     ],
     "path---words-2017-08-11-hello-world": [
       "path---words-2017-08-11-hello-world-77cbc715ed7d68761746.js",
@@ -24,17 +24,21 @@
       "path----0b7de2ef670afefe2da2.js",
       "path----0b7de2ef670afefe2da2.js.map"
     ],
+    "path---2017-10-28-boyajian": [
+      "path---2017-10-28-boyajian-65d0d9fb411e7b6f4596.js",
+      "path---2017-10-28-boyajian-65d0d9fb411e7b6f4596.js.map"
+    ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-a94a8e028e8bd9b686cc.js",
-      "component---src-pages-contact-js-a94a8e028e8bd9b686cc.js.map"
+      "component---src-pages-contact-js-dd42b7b19637f69f20bc.js",
+      "component---src-pages-contact-js-dd42b7b19637f69f20bc.js.map"
     ],
     "component---src-pages-words-js": [
       "component---src-pages-words-js-48529b10cd2b7dfc1f80.js",
       "component---src-pages-words-js-48529b10cd2b7dfc1f80.js.map"
     ],
     "path---projects": [
-      "path---projects-033fc85939a3d687550f.js",
-      "path---projects-033fc85939a3d687550f.js.map"
+      "path---projects-8ce004d5ac71eca5cf59.js",
+      "path---projects-8ce004d5ac71eca5cf59.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-4f3c888a53e1aa6c3a1e.js",
@@ -53,8 +57,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-14192944a02fe0b54bba.js",
-      "path---my-files-14192944a02fe0b54bba.js.map"
+      "path---my-files-701ed0575f20b879ae62.js",
+      "path---my-files-701ed0575f20b879ae62.js.map"
     ],
     "commons": [
       "commons-2ca77757bea1c5e24b88.js",
@@ -83,9 +87,9 @@
       "path---words-2017-08-10-sweet-pandas-eating-sweets-7112c07b179d08b88086.js.map"
     ],
     "app": [
-      "app-1c96c90ab2c5fcc7900c.js",
+      "app-773168d58415ae2364b8.js",
       "build-js-styles.css",
-      "app-1c96c90ab2c5fcc7900c.js.map",
+      "app-773168d58415ae2364b8.js.map",
       "build-js-styles.css.map"
     ],
     "path---projects-2017-02-beact": [
