@@ -1,5 +1,5 @@
 ---
-title: "STA Implementation"
+title: "STA"
 date: "2017-11-16"
 author: Vibert Thio
 ---

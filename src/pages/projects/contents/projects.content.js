@@ -4,6 +4,7 @@ import transperception from './transperception';
 import vtbb from './vtbb';
 import avexp from './avexp';
 import beatmap from './beatmap';
+import sta from './sta';
 
 /**
  * @type {Array}
@@ -21,6 +22,7 @@ export default [
 	etude,
 	beact,
 	transperception,
+	sta,
 	vtbb,
 	avexp,
 	beatmap,
