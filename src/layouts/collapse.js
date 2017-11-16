@@ -5,11 +5,11 @@ import FadeIn from '../utils/fade-in';
 
 import styles from './collapse.module.css';
 import layoutStyles from './index.module.css';
-import menuIcon from '../../assets/images/menu-icon.png';
-import signWhite from '../../assets/images/sign-white.png';
-import fbIcon from '../../assets/images/fb-icon-white.svg';
-import ghIcon from '../../assets/images/gh-icon-white.svg';
-import mdIcon from '../../assets/images/medium-icon-white.svg';
+import menuIcon from '../assets/images/menu-icon.png';
+import signWhite from '../assets/images/sign-white.png';
+import fbIcon from '../assets/images/fb-icon-white.svg';
+import ghIcon from '../assets/images/gh-icon-white.svg';
+import mdIcon from '../assets/images/medium-icon-white.svg';
 // import closeIcon from '../../assets/images/cross-icon.png';
 
 const ListLink = props => (

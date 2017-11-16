@@ -10,8 +10,8 @@ import './index.css';
 import styles from './index.module.css';
 import Collapse from './collapse';
 import NavList from './nav-list';
-import signBlack from '../../assets/images/sign-black.png';
-import logo from '../../assets/images/logo.png';
+import signBlack from '../assets/images/sign-black.png';
+import logo from '../assets/images/logo.png';
 
 const NabBar = props => (
   <header

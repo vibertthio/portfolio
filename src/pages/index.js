@@ -2,9 +2,9 @@ import React from 'react';
 import FadeIn from '../utils/fade-in';
 
 import styles from './index.module.css';
-import fbIcon from '../../assets/images/fb-icon.svg';
-import ghIcon from '../../assets/images/gh-icon.svg';
-import mdIcon from '../../assets/images/medium-icon.svg';
+import fbIcon from '../assets/images/fb-icon.svg';
+import ghIcon from '../assets/images/gh-icon.svg';
+import mdIcon from '../assets/images/medium-icon.svg';
 import './index.css';
 
 export default () => (
@@ -23,8 +23,8 @@ export default () => (
       <FadeIn>
         <div className={styles.aboutContainer}>
           <p>
-						Lit! Vibert Thio is digging into cutting-edge tech, and transforming it into the energy of
-						creating his art pieces in several new forms.
+						Lit! Vibert Thio is digging into cutting-edge tech, and transforming it into the energy
+						of creating his art pieces in several new forms.
           </p>
           <p>
 						Thio is studying in National Taiwan University(NTU), majoring in Electrical Engineering.
@@ -38,11 +38,11 @@ export default () => (
     </div>
     <FadeIn
       x={{
-        start: -30,
-        end: 0,
-        stiffness: 50,
-        damping: 8,
-      }}
+				start: -30,
+				end: 0,
+				stiffness: 50,
+				damping: 8,
+			}}
     >
       <div>
         <ul className={styles.snList}>

@@ -1,6 +1,6 @@
 ---
 title: "Étude"
-date: "2016-11-02"
+date: "2017-11-15"
 author: Vibert Thio
 ---
 
