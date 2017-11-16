@@ -11,7 +11,7 @@ export default 	{
 		links: [
 			{
 				name: 'Demo',
-				url: 'https://vibertthio.github.io/av_exp/webvr/load_sample/',
+				url: 'https://vibertthio.github.io/av_exp/webvr/load_sample/index.html',
 			},
 			{
 				name: 'Source Code',

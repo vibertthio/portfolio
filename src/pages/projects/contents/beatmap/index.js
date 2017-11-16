@@ -1,20 +1,22 @@
 import img from './sc-01.png';
 
 export default {
-  title: 'beatmap',
-  content: `
-    An generative musical instrument. It uses the algorithm of maps
-    to creative organic melodies and beats.
+	title: 'beatmap',
+	content: `
+“Beatmap” is a generative musical instrument, consisting of customized-size grid
+which contain directional information in each block. It connects to the whichever
+digital audio workstation (DAW) you are using through the software midi interface,
+synchronized by the clock sent from it.
   `,
-  links: [
-    {
-      name: 'Demo',
-      url: 'https://vimeo.com/204991989',
-    },
-    {
-      name: 'Source Code',
-      url: 'https://github.com/vibertthio/av_exp/tree/master/beatmap_midi',
-    },
-  ],
-  img,
+	links: [
+		{
+			name: 'Demo',
+			url: 'https://vimeo.com/204991989',
+		},
+		{
+			name: 'Source Code',
+			url: 'https://github.com/vibertthio/av_exp/tree/master/beatmap_midi',
+		},
+	],
+	img,
 };

@@ -66,7 +66,7 @@ class Project extends React.Component {
               <div key={l.url} className={styles.linkContainer}>
                 <a
                   className={styles.projectLink}
-                  href="https://vibertthio.github.io/av_exp/"
+                  href={l.url}
                   rel="noopener noreferrer"
                   target="_blank"
                 >

@@ -22,8 +22,8 @@ export default [
 	etude,
 	beact,
 	transperception,
-	sta,
 	vtbb,
 	avexp,
 	beatmap,
+	sta,
 ];
