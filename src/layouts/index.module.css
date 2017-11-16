@@ -77,11 +77,8 @@
 /***
 NavBar
 ***/
-.link.active p {
-	color: rgba(255, 160, 235, 1);
-}
 
-.navLink h4:hover {
+.navLink.inactive:hover h4 {
 	opacity: 1;
 
 	-webkit-transition: opacity 0.3s ease;
@@ -91,9 +88,9 @@ NavBar
 	transition: opacity 0.3s ease;
 }
 
-.navLink.active h4 {
+.navLink.active h4,{
 	opacity: 1;
-	color: rgba(43, 55, 15, 1);
+	/*color: rgba(43, 55, 15, 1);*/
 }
 
 .navLink.inactive h4 {
@@ -105,7 +102,6 @@ NavBar
 	-o-transition: opacity 0.3s ease;
 	transition: opacity 0.3s ease;
 }
-
 
 .fixedHeader {
 	color: rgba(255, 255, 255, 1);
