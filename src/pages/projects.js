@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import Project from '../components/project';
-import projects from '../contents/projects.content';
+import projects from './projects/contents/projects.content';
 
 import styles from './projects.module.css';
 
