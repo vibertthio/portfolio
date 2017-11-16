@@ -4,8 +4,53 @@
   max-width: 800px;
 }
 
-h5 a {
+.container h5 {
+  font-family: 'Open Sans';
+  line-height: 1.75rem;
+  margin-top: 0;
+}
+
+.container h5 a {
   color: #000;
   font-family: 'Oswald';
   font-size: 1.2rem;
+}
+
+.container p a {
+  margin-left: 0rem;
+
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+
+  -webkit-transition: margin-left 0.2s ease;
+  -moz-transition: margin-left 0.2s ease;
+  -ms-transition: margin-left 0.2s ease;
+  -o-transition: margin-left 0.2s ease;
+  transition: margin-left 0.2s ease;
+}
+
+.container p a:hover {
+  margin-left: 0.4rem;
+
+  -webkit-transition: margin-left 0.5s ease;
+  -moz-transition: margin-left 0.5s ease;
+  -ms-transition: margin-left 0.5s ease;
+  -o-transition: margin-left 0.5s ease;
+  transition: margin-left 0.5s ease;
+}
+
+.container ul li {
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 1.0rem;
+  letter-spacing: 0.15rem;
+  line-height: 1rem;
+}
+
+.container li a {
+  font-size: 1.0rem;
+  letter-spacing: 0.1rem;
 }

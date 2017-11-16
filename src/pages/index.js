@@ -8,8 +8,8 @@ import mdIcon from '../assets/images/medium-icon.svg';
 import './index.css';
 
 export default () => (
-  <div>
-    <div>
+  <div className={styles.container}>
+    <div className={styles.aboutContainer}>
       <FadeIn
         x={{
 					start: 70,
@@ -21,9 +21,9 @@ export default () => (
         <h1 className={styles.title}>About</h1>
       </FadeIn>
       <FadeIn>
-        <div className={styles.aboutContainer}>
+        <div className={styles.contentContainer}>
           <p>
-						Lit! Vibert Thio is digging into cutting-edge tech, and transforming it into the energy
+						Vibert Thio is digging into cutting-edge tech, and transforming it into the energy
 						of creating his art pieces in several new forms.
           </p>
           <p>

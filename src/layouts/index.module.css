@@ -64,6 +64,10 @@
 	font-size: 1.3rem;
 }
 
+.signBlackContainer {
+	display: inline;
+}
+
 .signBlack {
 	display: 'inline';
 	height: 2rem;
@@ -77,6 +81,11 @@
 /***
 NavBar
 ***/
+
+.navContainer {
+	display: block;
+	padding-bottom: 1rem;
+}
 
 .navLink.inactive:hover h4 {
 	opacity: 1;
@@ -214,10 +223,6 @@ Layout
 }
 
 @media screen and (max-width: 790px) {
-	.signBlack {
-		display: none;
-	}
-
 	.expandMenu {
 		margin-top: 0rem;
 	}
@@ -228,6 +233,12 @@ Layout
 }
 
 @media screen and (max-width: 768px) {
+
+	.signBlack {
+		display: none;
+		/*height: 2.0rem;*/
+	}
+
 	.layout {
 		width: 95%;
 	}
@@ -238,6 +249,9 @@ Layout
 }
 
 @media screen and (max-width: 480px) {
+	.signBlack {
+		/*display: none;*/
+	}
 	.layout {
 		width: 100%;
 	}
@@ -273,13 +287,13 @@ Layout
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 999px) {
 	.expandMenu {
 		display: none;
 	}
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1000px) {
 	.menuBtn {
 		display: none;
 	}

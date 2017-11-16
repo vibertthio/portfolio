@@ -1,5 +1,6 @@
 ---
 title: "Boyajian"
+author: Vibert Thio
 date: "2017-10-28"
 ---
 
@@ -31,3 +32,7 @@ If you have on idea how to download Processing libraries, you can follow the [in
 ## 3. Run
 
 Second, open the file ./Boyajian/Boyajian.pde with your processing IDE.
+
+<br>
+
+![demo](./img-01.jpg)

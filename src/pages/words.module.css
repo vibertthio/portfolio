@@ -1,3 +1,9 @@
+.container {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  max-width: 800px;
+}
+
 .link {
   margin-top: 0;
   display: block;
@@ -15,4 +21,14 @@
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
   color: rgba(100, 100, 100, 1);
+}
+
+@media screen and (max-width: 480px) {
+  .container h1 {
+    margin-top: 0.5rem;
+  }
+  .container {
+    margin: 0rem 1rem 2rem 1rem;
+  }
+
 }

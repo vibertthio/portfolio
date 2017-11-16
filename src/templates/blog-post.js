@@ -5,8 +5,9 @@ import styles from './blog-post.module.css';
 import FadeIn from '../utils/fade-in';
 
 export default ({ data }) => {
+	console.log(`data: ${data}`);
+	console.log(`data.markdownRemark: ${data.markdownRemark}`);
 	const post = data.markdownRemark;
-	// console.log(`post html: ${post.html}`);
 	return (
   <div className={styles.container}>
     <FadeIn
@@ -18,7 +19,7 @@ export default ({ data }) => {
 				}}
     >
       <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className={styles.contentContainter} dangerouslySetInnerHTML={{ __html: post.html }} />
       {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
       {/* <div>{ReactHtmlParser(post.html)}</div> */}
     </FadeIn>

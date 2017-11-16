@@ -18,7 +18,7 @@ const NabBar = props => (
     className={`${props.sticky > 0 ? styles.fixedHeader : ''}`}
     style={{ marginBottom: '1.5rem' }}
   >
-    <div className={`${props.sticky > 0 ? styles.fixedNavBar : ''}`}>
+    <div className={`${props.sticky > 0 ? styles.fixedNavBar : ''} ${styles.navContainer}`}>
       <Link
         className={styles.logoLink}
         to="/"
@@ -43,7 +43,9 @@ const NabBar = props => (
             <div className={styles.navLogo}>
               <h3>{props.site.siteMetadata.title}</h3>
             </div>
-            <img className={styles.signBlack} src={signBlack} alt="sign-black" />
+            <div className={styles.signBlackContainer}>
+              <img className={styles.signBlack} src={signBlack} alt="sign-black" />
+            </div>
           </div>
         </FadeIn>
       </Link>

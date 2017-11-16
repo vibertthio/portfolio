@@ -1,10 +1,15 @@
+.container {
+  margin: 0 0 0 3rem;
+}
+
 .title {
+  margin-top: 0rem;
   letter-spacing: 2.0rem;
 }
 
 .aboutContainer {
   margin-top: 2rem;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .snList {
@@ -26,6 +31,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    margin: 0 1.5rem 0 1rem;
+  }
   .aboutContainer {
     margin-top: 1.3rem;
     max-width: 350px;
