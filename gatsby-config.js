@@ -38,6 +38,12 @@ module.exports = {
 					'gatsby-remark-responsive-iframe',
 					`gatsby-remark-prismjs`,
 					`gatsby-remark-autolink-headers`,
+					{
+						resolve: `gatsby-remark-smartypants`,
+						options: {
+							dashes: 'oldschool',
+						},
+					},
 				],
 			},
 		},

@@ -48,7 +48,7 @@ We used git as the version controlling tool. The size of the source code made th
 
 <br>
 
-##Performer/Audience
+##Performer / Audience
 
 There are several existing libraries which support audio or visual effects on node package manager (NPM). Therefore, I had to find the ones the most suitable for my project. I used React as the framework, and Webpack as module bundler.
 
