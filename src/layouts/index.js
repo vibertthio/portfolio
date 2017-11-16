@@ -78,6 +78,7 @@ class Layout extends Component {
 	scrollHandle() {
 		let scrolledDown;
 		const y = window.scrollY;
+    console.log(`y position: ${y}`);
 		if (y > 60) {
 			scrolledDown = true;
 		} else {
