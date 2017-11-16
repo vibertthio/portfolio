@@ -10,11 +10,11 @@ export default {
 	links: [
 		{
 			name: 'Asking Gee',
-			url: 'https://askinggee.wixsite.com/agworks/videos',
+			url: 'https://askinggee.wixsite.com/agworks',
 		},
 		{
 			name: 'Showcase Video',
-			url: 'https://github.com/vibertthio/VTBB',
+			url: 'https://github.com/vibertthio/trail-light-system',
 		},
 	],
 	img,

@@ -18,3 +18,12 @@ author: Vibert Thio
 <br>
 
 I created this work as a practice of making audio/visual work. It utilizes Processing as graphical engine and Pd as audio one. You must see the demo video to feel the cuteness of it.
+
+
+##Links
+
+[> Demo Video][1]  
+[> Source Code][2]  
+
+[1]: https://vimeo.com/184943616
+[2]: https://github.com/vibertthio/VTBB

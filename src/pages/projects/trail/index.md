@@ -19,3 +19,12 @@ author: Vibert Thio
 <br>
 
 ![](./img-01.png)
+*The controlling interface of “Trail”*
+
+##Links
+
+[> Asking Gee][1]  
+[> Source Code][2]  
+
+[1]: https://askinggee.wixsite.com/agworks
+[2]: https://github.com/vibertthio/trail-light-system
