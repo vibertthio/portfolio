@@ -38,6 +38,7 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 		},
 		h5: {
 			fontFamily: 'Open Sans',
+			fontStyle: 'italic',
 			fontSize: rhythm(0.8),
 			letterSpacing: rhythm(0.05),
 			lineHeight: rhythm(1.2),
