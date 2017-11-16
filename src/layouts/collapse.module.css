@@ -74,17 +74,17 @@ Links
 }
 
 @media screen and (max-width: 768px) {
-	.link {
+	/*.link {
 		margin: 2.0rem 0 1rem 2rem;
 	}
 
 	.menuContainer {
 		width: 60%;
 		margin: 3rem 0 0 3rem;
-	}
+	}*/
 
 	.link p {
-		font-size: 2.5rem;
+		font-size: 3.0rem;
 		letter-spacing: 0.4rem;
 	}
 }
@@ -92,16 +92,16 @@ Links
 
 @media screen and (max-width: 490px) {
 	.link {
-		margin: 1.0rem 0 1.0rem 2rem;
+		margin: 0.5rem 0 1.0rem 2rem;
 	}
 
 	.menuContainer {
-		width: 60%;
+		width: 70%;
 		margin: 2.5rem 0 0 2.5rem;
 	}
 
 	.link p {
-		font-size: 2.0rem;
+		font-size: 2.5rem;
 		letter-spacing: 0.3rem;
 	}
 }
@@ -118,7 +118,7 @@ Links
 
 	.link p {
 		font-size: 2.0rem;
-		letter-spacing: 0.3rem;
+		letter-spacing: 0.1rem;
 	}
 }
 
@@ -203,4 +203,16 @@ Foot
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+@media screen and (max-width: 490px) {
+	.signWhite {
+		display: block;
+		height: 2.5rem;
+		margin: 1.3rem 1.0rem 0  1.7rem;
+		opacity: 0.6;
+	}
+	.snContainer {
+		margin: 0.8rem 0 0 2.7rem;
+	}
 }

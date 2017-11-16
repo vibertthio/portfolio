@@ -5,12 +5,37 @@ import FadeIn from '../utils/fade-in';
 
 const ListLink = props => (
   <li style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
-    <Link to={props.to} className={`${styles.navLink} ${(withPrefix(props.to) === props.path) ? styles.active : styles.inactive}`}>{props.children}</Link>
+    <Link
+      to={props.to}
+      className={`${styles.navLink} ${
+				withPrefix(props.to) === props.path ? styles.active : styles.inactive
+			}`}
+    >
+      {props.children}
+    </Link>
+  </li>
+);
+
+const ListLinkOut = props => (
+  <li style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+      href={props.to}
+      className={`${styles.navLink} ${
+				withPrefix(props.to) === props.path ? styles.active : styles.inactive
+			}`}
+    >
+      {props.children}
+    </a>
   </li>
 );
 
 const ListDevider = props => (
-  <li className={`${styles.navListItem} ${styles.inactive}`} style={{ display: 'inline-block', marginLeft: '0.5rem' }}>
+  <li
+    className={`${styles.navListItem} ${styles.inactive}`}
+    style={{ display: 'inline-block', marginLeft: '0.5rem' }}
+  >
     {props.children}
   </li>
 );
@@ -53,6 +78,12 @@ export default props => (
       <ListLink to="/words/2017-10-24---bio/" path={props.path}>
         <h4 className={styles.navItem}>Bio</h4>
       </ListLink>
+      <ListDevider>
+        <h4 className={styles.navDevider}>|</h4>
+      </ListDevider>
+      <ListLinkOut to="https://drive.google.com/drive/folders/0ByNwzf7aYOQ3ejVKWVcycTY4bU0?usp=sharing" path={props.path}>
+        <h4 className={styles.navItem}>C.V.</h4>
+      </ListLinkOut>
     </FadeIn>
   </ul>
 );

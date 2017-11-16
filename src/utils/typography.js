@@ -22,11 +22,12 @@ fairyGateTheme.plugins = [
 fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 		h1: {
 			letterSpacing: rhythm(0.5),
-			fontSize: rhythm(3.0),
+			// fontSize: rhythm(3.0),
+			fontSize: rhythm(2.5),
 		},
 		h2: {
 			letterSpacing: rhythm(0.2),
-			fontSize: rhythm(2.0),
+			fontSize: rhythm(1.5),
 			marginBottom: rhythm(1 / 2),
 			marginTop: rhythm(2),
 		},
@@ -38,8 +39,8 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 		},
 		h5: {
 			fontFamily: 'Open Sans',
-			fontStyle: 'italic',
-			fontSize: rhythm(0.8),
+			// fontStyle: 'italic',
+			fontSize: rhythm(0.7),
 			letterSpacing: rhythm(0.05),
 			lineHeight: rhythm(1.2),
 			marginBottom: rhythm(1 / 2),
@@ -79,6 +80,12 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 				// marginLeft: rhythm(-3 / 4),
 				marginLeft: rhythm(0),
 				// marginRight: 0,
+			},
+			h2: {
+				fontSize: rhythm(1.3),
+			},
+			h3: {
+				fontSize: rhythm(1.0),
 			},
 		},
 	});

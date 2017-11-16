@@ -6,7 +6,7 @@ date: "2017-10-24"
 
 
 <!-- > #####Developer | Artist | Researcher -->
-> ###Developer | Artist | Researcher
+> Developer | Artist | Researcher
 
 #####Based in Taipei, I am major in electrical engineering in National University of Taiwan. I build a wide range of system with technology for art, design, research and performance.
 #####I also make audio/visual art by using Processing(Java), C++ and Javascript, currently working on research of Tangible Web and Art Therapy studies.

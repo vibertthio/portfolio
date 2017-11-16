@@ -24,6 +24,20 @@ const ListLink = props => (
   </Link>
 );
 
+const ListLinkOut = props => (
+  <a
+    className={`${styles.link} ${
+			withPrefix(props.to) === props.path ? styles.active : styles.inactive
+		}`}
+    onClick={() => props.onClick()}
+    href={props.to}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <p>{props.children}</p>
+  </a>
+);
+
 class Collapse extends Component {
 	constructor() {
 		super();
@@ -71,9 +85,20 @@ class Collapse extends Component {
             <ListLink to="/words/" path={this.props.path} onClick={() => this.closeMenu()}>
 									Words
             </ListLink>
-            <ListLink to="/words/2017-10-24---bio/" path={this.props.path} onClick={() => this.closeMenu()}>
+            <ListLink
+              to="/words/2017-10-24---bio/"
+              path={this.props.path}
+              onClick={() => this.closeMenu()}
+            >
 									Bio
             </ListLink>
+            <ListLinkOut
+              to="https://drive.google.com/drive/folders/0ByNwzf7aYOQ3ejVKWVcycTY4bU0?usp=sharing"
+              path={this.props.path}
+              onClick={() => this.closeMenu()}
+            >
+									C.V.
+            </ListLinkOut>
             {/* }{this.state.open && (
 							<button
 							href=""
