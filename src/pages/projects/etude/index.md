@@ -43,8 +43,6 @@ The addition of the music and creativity content in their rehabilitation aimed t
 *The patients were playing
 the game during their rehabilitation. (2016.7)*
 
-<br>
-
 ##Showcase
 
 <br>
@@ -60,15 +58,11 @@ Based on the users’ composing record, I extracted melody patterns and generate
 ![](./img-07.jpg)
 *Étude Taipei Showcase. (2016.11)*
 
-<br>
-
 ##Cooperation and Teamwork
 
 This project was advised by Ministry of Culture of the Republic of China, sponsored by Quanta Computer. Hence, I had to not only design the system of data extraction and performance, but also coordinate with different artists and organizations.
 
 I am the invited artist of this project, in charge of the design of the music game for procedures of rehabilitation, and the program composing the data of their recordings, in addition to the performance of the showcase.
-
-<br>
 
 ##Links
 

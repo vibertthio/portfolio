@@ -16,13 +16,9 @@ author: Vibert Thio
 <!-- ![](./img-01.jpg)
 *Video shooting for Beact. (2017.7)* -->
 
-<br>
-
 ##Introduction
 
 It’s not only an audio/visual art work but also an instrument that everyone can play with to become a DJ + VJ. Based on the idea of Patatap, “Beact” uses Two.js, Tone.js as audio and visual engine library respectively. It combines the concept of sequencer with keyboard, becoming a complete set for musician to perform their work in a browser. This project merges creative coding into the software architecture with conceptual integrity.
-
-<br>
 
 ##Inspiration
 
@@ -32,8 +28,6 @@ After a while, I wanted to use it as an instrument for my performance and compos
 
 ![](./img-02.png)
 *Screenshot of one scene of Beact. (2017.7)*
-
-<br>
 
 ##Cooperation and Git
 
@@ -46,21 +40,15 @@ We used git as the version controlling tool. The size of the source code made th
 ![](./img-05.png)
 *Screenshot of other scenes of Beact. (2017.7)*
 
-<br>
-
 ##Performer and Audience
 
 There are several existing libraries which support audio or visual effects on node package manager (NPM). Therefore, I had to find the ones the most suitable for my project. I used React as the framework, and Webpack as module bundler.
 
 In beginning, user could only use keyboard to access the functions. After a time, I added the connection port to midi controller to let musicians play “Beact” with their own instruments. Thereafter, Beact is not merely a simple app for people to have fun with, but a powerful audio/visual tool that can be accessed with simply a browser for performers.
 
-<br>
-
 ##Interactive Performance
 
 I was so ambitious that I want to add more interactivity to Beact. Two weeks before the debut of Beact, I redesigned the server to let audience send signal to the screen on stage during performances.
-
-<br>
 
 ##UI/UX analysis
 
@@ -69,13 +57,9 @@ When I finished first the stable version of Beact and published it using Heroku,
 ![](./img-04.png)
 *Screenshot of another scene of Beact. (2017.7)*
 
-<br>
-
 ##Group Exhibition
 
 In order to promote this project, I gathered few friends to hold a group exhibition to show our works, such as “Beact”, “Trail” (interactive light installation), etc. Moreover, I took charge of a work shop of creative coding and audio/visual art on web to demonstrate the thriving community of artists, programmers, and makers on the internet. I also produced a teaser video for Beact, showing me using Beact to perform a bit.
-
-<br>
 
 ##Links
 

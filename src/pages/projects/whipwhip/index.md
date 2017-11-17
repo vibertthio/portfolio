@@ -13,9 +13,6 @@ author: Vibert Thio
 <iframe src="https://player.vimeo.com/video/240780843" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/240780843">WhipWhip | Self-Made Musical Instrument with Optic Fiber</a> from <a href="https://vimeo.com/user56788864">Vibert Thio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-<br>
-
-
 ##About
 
 ![](./img-05.jpg)

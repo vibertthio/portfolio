@@ -81,7 +81,7 @@ export default props => (
       <ListDevider>
         <h4 className={styles.navDevider}>|</h4>
       </ListDevider>
-      <ListLinkOut to="https://drive.google.com/drive/folders/0ByNwzf7aYOQ3ejVKWVcycTY4bU0?usp=sharing" path={props.path}>
+      <ListLinkOut to="https://drive.google.com/file/d/0ByNwzf7aYOQ3ZnZIbWdCYm9GbjA/view?usp=sharing" path={props.path}>
         <h4 className={styles.navItem}>C.V.</h4>
       </ListLinkOut>
     </FadeIn>
