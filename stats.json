@@ -17,8 +17,8 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-66bf46e5b1e63de79b1b.js",
-      "path---words-66bf46e5b1e63de79b1b.js.map"
+      "path---words-2e1f9f75a9eacb5e7bea.js",
+      "path---words-2e1f9f75a9eacb5e7bea.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -36,6 +36,10 @@
       "path---words-2017-10-28-boyajian-3a700d9e9829271aa069.js",
       "path---words-2017-10-28-boyajian-3a700d9e9829271aa069.js.map"
     ],
+    "path---projects-karesansui": [
+      "path---projects-karesansui-ed6959f747e8bdb2af2c.js",
+      "path---projects-karesansui-ed6959f747e8bdb2af2c.js.map"
+    ],
     "path---": [
       "path----0b7de2ef670afefe2da2.js",
       "path----0b7de2ef670afefe2da2.js.map"
@@ -48,6 +52,10 @@
       "component---src-pages-projects-beact-desc-index-js-ea34806f27e8f2eff425.js",
       "component---src-pages-projects-beact-desc-index-js-ea34806f27e8f2eff425.js.map"
     ],
+    "component---src-pages-projects-karesansui-desc-index-js": [
+      "component---src-pages-projects-karesansui-desc-index-js-cd5384fd9dacd80000d0.js",
+      "component---src-pages-projects-karesansui-desc-index-js-cd5384fd9dacd80000d0.js.map"
+    ],
     "path---projects-etude-desc": [
       "path---projects-etude-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-etude-desc-a0e39f21c11f6a62c5ab.js.map"
@@ -57,16 +65,16 @@
       "component---src-pages-contact-js-dd42b7b19637f69f20bc.js.map"
     ],
     "component---src-pages-projects-etude-desc-index-js": [
-      "component---src-pages-projects-etude-desc-index-js-ee9cd92205b8459c9818.js",
-      "component---src-pages-projects-etude-desc-index-js-ee9cd92205b8459c9818.js.map"
+      "component---src-pages-projects-etude-desc-index-js-7259942fb88d77610e58.js",
+      "component---src-pages-projects-etude-desc-index-js-7259942fb88d77610e58.js.map"
     ],
     "component---src-pages-projects-sta-desc-index-js": [
       "component---src-pages-projects-sta-desc-index-js-95886617a112882540de.js",
       "component---src-pages-projects-sta-desc-index-js-95886617a112882540de.js.map"
     ],
     "component---src-pages-projects-projects-content-js": [
-      "component---src-pages-projects-projects-content-js-8b0d71446f46c623c841.js",
-      "component---src-pages-projects-projects-content-js-8b0d71446f46c623c841.js.map"
+      "component---src-pages-projects-projects-content-js-3996273b2f2ebedbcb15.js",
+      "component---src-pages-projects-projects-content-js-3996273b2f2ebedbcb15.js.map"
     ],
     "path---projects-etude": [
       "path---projects-etude-2b4bf465a44a93110d08.js",
@@ -81,12 +89,16 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-a3ab1d1dc26841902101.js",
-      "path---projects-a3ab1d1dc26841902101.js.map"
+      "path---projects-49eda183923c9fdfe659.js",
+      "path---projects-49eda183923c9fdfe659.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-boyajian-desc-index-js": [
+      "component---src-pages-projects-boyajian-desc-index-js-7e23890f8a2dc75443b5.js",
+      "component---src-pages-projects-boyajian-desc-index-js-7e23890f8a2dc75443b5.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-3cb627a6e068729da76d.js",
@@ -99,6 +111,10 @@
     "path---projects-trail": [
       "path---projects-trail-5a1768fad48c797e3ca4.js",
       "path---projects-trail-5a1768fad48c797e3ca4.js.map"
+    ],
+    "path---projects-boyajian": [
+      "path---projects-boyajian-befa719b342d49acfa63.js",
+      "path---projects-boyajian-befa719b342d49acfa63.js.map"
     ],
     "path---projects-beact": [
       "path---projects-beact-b067d2bac500608261cc.js",
@@ -115,6 +131,10 @@
     "path---projects-vtbb-desc": [
       "path---projects-vtbb-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-vtbb-desc-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---projects-karesansui-desc": [
+      "path---projects-karesansui-desc-a0e39f21c11f6a62c5ab.js",
+      "path---projects-karesansui-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -133,8 +153,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-0d8063879c456658a38f.js",
-      "path---my-files-0d8063879c456658a38f.js.map"
+      "path---my-files-726136818904bc2c030c.js",
+      "path---my-files-726136818904bc2c030c.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -151,17 +171,17 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-0b620ec1f44a16f3346f.js",
-      "component---src-pages-projects-js-0b620ec1f44a16f3346f.js.map"
+      "component---src-pages-projects-js-c5061a01551366346b0c.js",
+      "component---src-pages-projects-js-c5061a01551366346b0c.js.map"
     ],
     "component---src-pages-projects-vtbb-desc-index-js": [
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js",
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-10176b198b968478faf7.js",
+      "app-b6e32b59dd16f5df952d.js",
       "build-js-styles.css",
-      "app-10176b198b968478faf7.js.map",
+      "app-b6e32b59dd16f5df952d.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
@@ -179,6 +199,10 @@
     "component---src-pages-projects-avexp-desc-index-js": [
       "component---src-pages-projects-avexp-desc-index-js-bd3192361f0ff3ed7aa6.js",
       "component---src-pages-projects-avexp-desc-index-js-bd3192361f0ff3ed7aa6.js.map"
+    ],
+    "path---projects-boyajian-desc": [
+      "path---projects-boyajian-desc-a0e39f21c11f6a62c5ab.js",
+      "path---projects-boyajian-desc-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
