@@ -1,4 +1,4 @@
-import etudeImg from '../etude-01.jpg';
+import etudeImg from '../etude-01-s.jpg';
 // import etudeImg from '../img-01.png';
 
 export default 	{

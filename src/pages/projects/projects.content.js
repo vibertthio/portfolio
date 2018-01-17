@@ -1,5 +1,6 @@
 import etude from './etude/desc';
 import beact from './beact/desc';
+import karesansui from './karesansui/desc';
 import transperception from './transperception/desc';
 import vtbb from './vtbb/desc';
 import avexp from './avexp/desc';
@@ -7,6 +8,7 @@ import beatmap from './beatmap/desc';
 import sta from './sta/desc';
 import whip from './whipwhip/desc';
 import trail from './trail/desc';
+import boyajian from './boyajian/desc';
 
 /**
  * @type {Array}
@@ -23,7 +25,9 @@ import trail from './trail/desc';
 export default [
 	etude,
 	beact,
+	karesansui,
 	whip,
+	boyajian,
 	vtbb,
 	beatmap,
 	transperception,
