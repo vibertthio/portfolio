@@ -8,7 +8,7 @@ author: Vibert Thio
 
 
 
-#####Generative landscape, meditation garden, zen field.
+#####:mount_fuji: :leaves: Generative landscape, meditation garden, zen field.
 
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/l0HU9Lohx6gHD96FO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/webgl-karensansui-l0HU9Lohx6gHD96FO">via GIPHY</a></p>
