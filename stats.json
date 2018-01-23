@@ -17,8 +17,8 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-2e1f9f75a9eacb5e7bea.js",
-      "path---words-2e1f9f75a9eacb5e7bea.js.map"
+      "path---words-7fde6644443d745bfac7.js",
+      "path---words-7fde6644443d745bfac7.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -31,10 +31,6 @@
     "path---words-2017-10-24-bio": [
       "path---words-2017-10-24-bio-34ecd2e582f922366bd4.js",
       "path---words-2017-10-24-bio-34ecd2e582f922366bd4.js.map"
-    ],
-    "path---words-2017-10-28-boyajian": [
-      "path---words-2017-10-28-boyajian-3a700d9e9829271aa069.js",
-      "path---words-2017-10-28-boyajian-3a700d9e9829271aa069.js.map"
     ],
     "path---projects-karesansui": [
       "path---projects-karesansui-ed6959f747e8bdb2af2c.js",
@@ -89,8 +85,8 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-49eda183923c9fdfe659.js",
-      "path---projects-49eda183923c9fdfe659.js.map"
+      "path---projects-be52c0331f22843c7826.js",
+      "path---projects-be52c0331f22843c7826.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -153,8 +149,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-726136818904bc2c030c.js",
-      "path---my-files-726136818904bc2c030c.js.map"
+      "path---my-files-fdcf608132d666073775.js",
+      "path---my-files-fdcf608132d666073775.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -174,14 +170,18 @@
       "component---src-pages-projects-js-c5061a01551366346b0c.js",
       "component---src-pages-projects-js-c5061a01551366346b0c.js.map"
     ],
+    "path---words-2018-01-23-futureworks": [
+      "path---words-2018-01-23-futureworks-01599a1421ce2df662d8.js",
+      "path---words-2018-01-23-futureworks-01599a1421ce2df662d8.js.map"
+    ],
     "component---src-pages-projects-vtbb-desc-index-js": [
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js",
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-b6e32b59dd16f5df952d.js",
+      "app-6ad8378d9cfd8fcd10b8.js",
       "build-js-styles.css",
-      "app-b6e32b59dd16f5df952d.js.map",
+      "app-6ad8378d9cfd8fcd10b8.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
