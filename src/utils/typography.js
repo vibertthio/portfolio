@@ -35,7 +35,7 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 	},
 	h3: {
 		letterSpacing: rhythm(0.2),
-		fontSize: rhythm(1.4),
+		fontSize: rhythm(1.2),
 		marginBottom: rhythm(1 / 2),
 		marginTop: rhythm(2),
 	},
@@ -51,6 +51,12 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }) => ({
 		marginTop: rhythm(1 / 2),
 	},
 	p: {
+		letterSpacing: rhythm(0.05),
+		lineHeight: rhythm(1),
+		fontSize: rhythm(0.6),
+		marginBottom: rhythm(0.5),
+	},
+	li: {
 		letterSpacing: rhythm(0.05),
 		lineHeight: rhythm(1),
 		fontSize: rhythm(0.6),
