@@ -10,13 +10,13 @@ date: "2018-01-23"
 
 One of the focuses of TGM is the vision about merging of the physical and digital world. I think the first battle field would be in internet. And the webpage in WWW is the forefront of the internet world.
 
-I want to do research about how to extend the experience which I valued the most  in browser and webpages (music, visual effects, browsing and security) utilizing tangible interfaces.
+I want to do research about how to extend the experience which I valued the most  in browser and webpages (including music, visual effects, browsing and security) utilizing tangible interfaces.
 
 
 
 ## 2. My Future Research
 
-### Musical Experiences in Web
+### .Musical Experiences in Web
 
 ![](./1-1.png)
 
@@ -32,7 +32,7 @@ I am really interested in transforming the current webpage interaction into tang
 This opens a design space for musical instrument which can be shared with internet easily. Moreover, it can empower the interactive art works involving visual and musical effects to be distributed through internet. The net art will no longer be confined in the monitors.
 
 
-### Tabs and Pages
+### .Tabs and Pages
 WWW is definitely the most important source of knowledge in 21st century. I spend huge amount of time using browser to do a wide variety of things. However, the structure of pages and tabs are still similar to 20 years ago.
 
 I always suffer from navigating through dozens of tabs in my browser. People usually keep opening new tabs because the  essence in information in web is diverse and  structured in hyperlinks.
@@ -46,7 +46,7 @@ I imagine about the using of augmented sticky notes, pens and papers in this sce
 These ideas make the abilities we learned from physical world be useful in digital world, and help people construct a better understanding to the structure of knowledges on internet.
 
 
-### Tangible Security Issue
+### .Tangible Security Issue
 Security int internet is important but also ignored and neglected by most of users. In my opinion, the main problem is that the sensitive informations are sent out in the abstract, digital and intangible form.
 
 My initial idea is to make the actions in browser or internets visible and tangible to the users. One may have to press a physical, huge and red and button to use your credit cards, register accounts and send emails with sensitive contents. A physical interactive light would blinks every time your computer want to uses the NIC (Network Interface Card) to send something and you can stop it by simply touch the light.
@@ -55,6 +55,8 @@ My initial idea is to make the actions in browser or internets visible and tangi
 
 
 ## 3. End Points
+
+> **The projects and ideas above may not be solid enough to implement yet, but this doesn't deviate my vision towards the end points.**
 
 Web is the universal, open media to almost anyone with internet, despite some concerns about accessibility and net neutrality etc. As a developer, I am always fascinated by the magic emerging from the mystery world of web.
 
@@ -66,17 +68,17 @@ Therefore, I want to ...
 
 ## 4. Resources Needed
 
-### In The Lab ...
+### .In The Lab ...
 I might need few things to implement the ideas
 1. different hardware to test the cross-platform compatibility.
 2. 3d printing for prototype of the interface and physical objects.
 3. crazy people to discuss the scenarios and get inspired!
 
-### Communities
+### .Communities
 To make the projects meet the need of the future, I will have to consult the organizations that care about the problems and future of internet, such as [Internet Society](https://www.internetsociety.org).
 
 
-### Conferences
+### .Conferences
 Also, I will need to pay attention to the fast-pace web technology to make the research and projects of mine more realistic. Conferences like [WEBIST](http://www.webist.org/CallForPapers.aspx#A5) and [Web Intelligence](https://webintelligence2018.com/), are important resources for my further plan.
 
 ## 5. Final Words
