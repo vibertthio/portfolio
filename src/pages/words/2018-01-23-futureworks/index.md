@@ -17,9 +17,17 @@ I want to do research about how to extend the experience which I valued the most
 ## 2. My Future Research
 
 ### Musical Experiences in Web
+
+![](./1-1.png)
+
+> The image above is the web page view in Beact. The rectangles in the background are clickable to users. I want to use TRANSFORM the make them come true!
+
 One of my idea is based on my previous work [Beact](https://vibertthio.com/portfolio/projects/beact/). Beact is a interactive webpage that everyone can play with to become a DJ + VJ in few seconds. It is also an instrument combining the concept of drum machine and keyboard.
 
+
 I am really interested in transforming the current webpage interaction into tangible interfaces like TRANSFORM.  I will use TRANSFORM as the interface and construct the interactive blocks in the webpage on to it. Also, I want add some curtain layer on the top to make the projection more smooth on the surface.
+
+![](./1-4.png)
 
 This opens a design space for musical instrument which can be shared with internet easily. Moreover, it can empower the interactive art works involving visual and musical effects to be distributed through internet. The net art will no longer be confined in the monitors.
 
@@ -33,6 +41,8 @@ One of my ideas is to enhance the experience of browsing by imitating some offic
 
 I imagine about the using of augmented sticky notes, pens and papers in this scenario. I can spread the pages on my desktop to compare and switch between them by simply turn to the backside and read, note the importance with pen, and bookmark them with sticky notes. All of the actions taken would be traced by the digital essence of the tools and managed easily in computers.
 
+![](./2-1.png)
+
 These ideas make the abilities we learned from physical world be useful in digital world, and help people construct a better understanding to the structure of knowledges on internet.
 
 
@@ -40,6 +50,9 @@ These ideas make the abilities we learned from physical world be useful in digit
 Security int internet is important but also ignored and neglected by most of users. In my opinion, the main problem is that the sensitive informations are sent out in the abstract, digital and intangible form.
 
 My initial idea is to make the actions in browser or internets visible and tangible to the users. One may have to press a physical, huge and red and button to use your credit cards, register accounts and send emails with sensitive contents. A physical interactive light would blinks every time your computer want to uses the NIC (Network Interface Card) to send something and you can stop it by simply touch the light.
+
+![](./3-1.png)
+
 
 ## 3. End Points
 
