@@ -86,7 +86,7 @@ class Collapse extends Component {
 									Words
             </ListLink>
             <ListLink
-              to="/words/2017-10-24---bio/"
+              to="/words/2017-10-24-bio/"
               path={this.props.path}
               onClick={() => this.closeMenu()}
             >

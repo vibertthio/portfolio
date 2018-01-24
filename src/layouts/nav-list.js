@@ -75,7 +75,7 @@ export default props => (
       <ListDevider>
         <h4 className={styles.navDevider}>|</h4>
       </ListDevider>
-      <ListLink to="/words/2017-10-24---bio/" path={props.path}>
+      <ListLink to="/words/2017-10-24-bio/" path={props.path}>
         <h4 className={styles.navItem}>Bio</h4>
       </ListLink>
       <ListDevider>
