@@ -62,9 +62,7 @@
 .container ul li {
   font-family: 'Oswald';
   font-weight: 200;
-  font-size: 1.0rem;
-  letter-spacing: 0.15rem;
-  line-height: 1rem;
+  /* font-size: 1.0rem; */
 }
 
 .container li a {

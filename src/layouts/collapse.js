@@ -10,6 +10,7 @@ import signWhite from '../assets/images/sign-white.png';
 import fbIcon from '../assets/images/fb-icon-white.svg';
 import ghIcon from '../assets/images/gh-icon-white.svg';
 import mdIcon from '../assets/images/medium-icon-white.svg';
+import mailIcon from '../assets/images/mail-icon-white.svg';
 // import closeIcon from '../../assets/images/cross-icon.png';
 
 const ListLink = props => (
@@ -139,6 +140,11 @@ class Collapse extends Component {
                   href="https://medium.com/@vibertthio"
                 >
                   <img src={mdIcon} className={styles.snIcon} alt="medium-icon" />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:vibertthio@gmail.com">
+                  <img src={mailIcon} className={styles.snIcon} alt="mail-icon" />
                 </a>
               </li>
             </ul>

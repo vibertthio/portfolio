@@ -13,7 +13,7 @@ date: "2018-01-23"
 1. [Intro: Tangible Web](#1-intro-tangible-web)
 2. [My Future Research](#2-my-future-research)
    * [Tangible Security Issue](#tangible-security-issue)
-   * [Musical Experiences in Web](#musical-experiences-in-web)
+   * [Audio/Visual Experiences in Web](#audiovisual-experiences-in-web)
    * [Augmented Web Pages](#augmented-web-pages)
 3. [End Points](#3-end-points)
 4. [Resources Needed](#4-resources-needed)
@@ -23,9 +23,11 @@ date: "2018-01-23"
 
 ## 1. Intro: Tangible Web
 
-One of the focuses of TMG is the vision about merging of the physical and digital world. I think the first battle field would be in internet. And the webpage in WWW is the forefront of the internet world.
+One of the focuses of TMG is the vision about merging of the "Atoms" and "Bits" world. I think the first battle field would be in internet. And the webpage in WWW is the forefront of the internet world.
 
-**In my research of "Tangible Web", I want to extend the ability to experience, learn, share information physically, and create with using tangible internet.**
+In my research of "Tangible Web", I want to extend the ability to experience, learn, share information physically, and create with using tangible internet.
+
+**In my long term vision, I imagine users of "Tangible Web" can access the structured knowledge and a wide variety of "[Audio/Visual Experiences in Web](#audiovisual-experiences-in-web)" with easy-to-operate "[Augmented Web Pages](#augmented-web-pages)" physically. In the meantime,  the potential risks of security on internet are transparent to users with "[Tangible Security Issue](#tangible-security-issue)".** 
 
 
 
@@ -45,7 +47,7 @@ One may have to press a physical, huge and red and button to use your credit car
 
 
 
-### Musical Experiences in Web
+### Audio/Visual Experiences in Web
 
 ![](./1-1.png)
 
@@ -99,8 +101,8 @@ Web is the universal, open media to almost anyone with internet, despite some co
 
 Therefore, I want to ...
 1. make security issues clearly visible to the user and make their actions related to security fully awared by the dynamically changing size and affordances of the tangible object. ([Tangible Security Issue](#tangible-security-issue))
-2. make the hidden data flow and musical/visual experience more accessible to people with little knowledge of how the browser or internet is working. ([Tangible Security Issue](#tangible-security-issue), [Musical Experiences in Web](#musical-experiences-in-web))
-3. make the physical demonstration (incluing research outcomes, interactive projects, and art works) involving audio/visual effects more easily implemented and shared via internet. ([Musical Experiences in Web](#musical-experiences-in-web))
+2. make the hidden data flow and musical/visual experience more accessible to people with little knowledge of how the browser or internet is working. ([Tangible Security Issue](#tangible-security-issue), [Audio/Visual Experiences in Web](#audiovisual-experiences-in-web))
+3. make the physical demonstration (incluing research outcomes, interactive projects, and art works) involving audio/visual effects more easily implemented and shared via internet. ([Audio/Visual Experiences in Web](#audiovisual-experiences-in-web))
 4. use the methods of interacting with objects in physical world to manipulate the structure of knowledge on internet, and extend the abilities we learned from physical world when  be useful in digital world. ([Augmented Web Pages](#augmented-web-pages))
 
 

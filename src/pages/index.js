@@ -5,6 +5,7 @@ import styles from './index.module.css';
 import fbIcon from '../assets/images/fb-icon.svg';
 import ghIcon from '../assets/images/gh-icon.svg';
 import mdIcon from '../assets/images/medium-icon.svg';
+import mailIcon from '../assets/images/mail-icon.svg';
 import './index.css';
 
 export default () => (
@@ -63,6 +64,11 @@ export default () => (
           <li>
             <a rel="noopener noreferrer" target="_blank" href="https://medium.com/@vibertthio">
               <img src={mdIcon} className={styles.snIcon} alt="medium-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:vibertthio@gmail.com">
+              <img src={mailIcon} className={styles.snIcon} alt="email-icon" />
             </a>
           </li>
         </ul>
