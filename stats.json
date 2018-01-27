@@ -17,16 +17,16 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-e71032844c04bf135f30.js",
-      "path---words-e71032844c04bf135f30.js.map"
+      "path---words-4b42ec6e0f32c0e0eaff.js",
+      "path---words-4b42ec6e0f32c0e0eaff.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-369c2563986f6e43b40c.js",
-      "component---src-pages-index-js-369c2563986f6e43b40c.js.map"
+      "component---src-pages-index-js-f7066e3d9264be54c314.js",
+      "component---src-pages-index-js-f7066e3d9264be54c314.js.map"
     ],
     "path---words-2017-10-24-bio": [
       "path---words-2017-10-24-bio-19660285968e8ea8aedc.js",
@@ -56,10 +56,6 @@
       "path---projects-etude-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-etude-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-dd42b7b19637f69f20bc.js",
-      "component---src-pages-contact-js-dd42b7b19637f69f20bc.js.map"
-    ],
     "component---src-pages-projects-etude-desc-index-js": [
       "component---src-pages-projects-etude-desc-index-js-7259942fb88d77610e58.js",
       "component---src-pages-projects-etude-desc-index-js-7259942fb88d77610e58.js.map"
@@ -85,8 +81,8 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-53a6d0b896954cd1ec2a.js",
-      "path---projects-53a6d0b896954cd1ec2a.js.map"
+      "path---projects-864a7907ba1def6cb8da.js",
+      "path---projects-864a7907ba1def6cb8da.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -101,8 +97,8 @@
       "component---src-templates-blog-post-js-3cb627a6e068729da76d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e58b0b87548095d3d6f6.js",
-      "component---src-layouts-index-js-e58b0b87548095d3d6f6.js.map"
+      "component---src-layouts-index-js-de19b1bb2b4b5c393af2.js",
+      "component---src-layouts-index-js-de19b1bb2b4b5c393af2.js.map"
     ],
     "path---projects-trail": [
       "path---projects-trail-5a1768fad48c797e3ca4.js",
@@ -119,6 +115,10 @@
     "path---projects-whipwhip-desc": [
       "path---projects-whipwhip-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-whipwhip-desc-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-2018-01-27-chromesthesia": [
+      "path---docs-2018-01-27-chromesthesia-9264e0d8cac5b2c3afb8.js",
+      "path---docs-2018-01-27-chromesthesia-9264e0d8cac5b2c3afb8.js.map"
     ],
     "path---projects-projects-content": [
       "path---projects-projects-content-a0e39f21c11f6a62c5ab.js",
@@ -149,8 +149,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-2663fc60480ce7a0308a.js",
-      "path---my-files-2663fc60480ce7a0308a.js.map"
+      "path---my-files-46d04ded477b94b1f272.js",
+      "path---my-files-46d04ded477b94b1f272.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -162,26 +162,22 @@
       "path---projects-beatmap-2ea7c93281777637c599.js",
       "path---projects-beatmap-2ea7c93281777637c599.js.map"
     ],
-    "path---contact": [
-      "path---contact-a0e39f21c11f6a62c5ab.js",
-      "path---contact-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-projects-js": [
       "component---src-pages-projects-js-c5061a01551366346b0c.js",
       "component---src-pages-projects-js-c5061a01551366346b0c.js.map"
     ],
     "path---words-2018-01-23-futureworks": [
-      "path---words-2018-01-23-futureworks-de90ce7c94d1a844eddf.js",
-      "path---words-2018-01-23-futureworks-de90ce7c94d1a844eddf.js.map"
+      "path---words-2018-01-23-futureworks-f34caf86bdcd332ed3b5.js",
+      "path---words-2018-01-23-futureworks-f34caf86bdcd332ed3b5.js.map"
     ],
     "component---src-pages-projects-vtbb-desc-index-js": [
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js",
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-816f48390849a5122097.js",
+      "app-7504bcf56267193c0ff9.js",
       "build-js-styles.css",
-      "app-816f48390849a5122097.js.map",
+      "app-7504bcf56267193c0ff9.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [

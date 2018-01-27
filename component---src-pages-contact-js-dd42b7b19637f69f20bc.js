@@ -1,2 +1,0 @@
-webpackJsonp([70144966829960],{315:function(e,t,l){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=l(3),n=a(u);t.default=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Contact"),n.default.createElement("p",null,n.default.createElement("a",{href:"mailto:vibertthio@gmail.com"},"vibertthio at gmail")))},e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-contact-js-dd42b7b19637f69f20bc.js.map
