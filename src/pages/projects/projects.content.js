@@ -9,6 +9,7 @@ import sta from './sta/desc';
 import whip from './whipwhip/desc';
 import trail from './trail/desc';
 import boyajian from './boyajian/desc';
+import cabinet from './cabinet/desc';
 
 /**
  * @type {Array}
@@ -33,5 +34,6 @@ export default [
 	transperception,
 	avexp,
 	sta,
+	cabinet,
 	trail,
 ];
