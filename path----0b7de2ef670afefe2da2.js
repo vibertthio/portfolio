@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{147:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Vibert Thio",author:"@vibertthio"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{149:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Vibert Thio",author:"@vibertthio"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----0b7de2ef670afefe2da2.js.map
