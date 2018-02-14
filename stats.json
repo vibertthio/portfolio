@@ -17,8 +17,8 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-24e64b9f6ccba9d58193.js",
-      "path---words-24e64b9f6ccba9d58193.js.map"
+      "path---words-6bb3b216e9216d5d84d4.js",
+      "path---words-6bb3b216e9216d5d84d4.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -27,6 +27,10 @@
     "component---src-pages-projects-cabinet-desc-index-js": [
       "component---src-pages-projects-cabinet-desc-index-js-e840b0f60f14ff4fea06.js",
       "component---src-pages-projects-cabinet-desc-index-js-e840b0f60f14ff4fea06.js.map"
+    ],
+    "path---shinyi": [
+      "path---shinyi-579f1beaa03152657028.js",
+      "path---shinyi-579f1beaa03152657028.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-f7066e3d9264be54c314.js",
@@ -85,8 +89,8 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-a25c7714c5b1926709f0.js",
-      "path---projects-a25c7714c5b1926709f0.js.map"
+      "path---projects-42f04f42ff8018919269.js",
+      "path---projects-42f04f42ff8018919269.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -153,16 +157,16 @@
       "path---projects-beact-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---words-2018-02-13-generative-music": [
-      "path---words-2018-02-13-generative-music-4c85a946017b9d9df05c.js",
-      "path---words-2018-02-13-generative-music-4c85a946017b9d9df05c.js.map"
+      "path---words-2018-02-13-generative-music-00b14f2632629458ae58.js",
+      "path---words-2018-02-13-generative-music-00b14f2632629458ae58.js.map"
     ],
     "component---src-pages-my-files-js": [
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js",
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-c772a6fae9b409d8d7aa.js",
-      "path---my-files-c772a6fae9b409d8d7aa.js.map"
+      "path---my-files-052755355f1741fcac62.js",
+      "path---my-files-052755355f1741fcac62.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -187,9 +191,9 @@
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-894600292604f92db275.js",
+      "app-1006a45f5d4e52a4d635.js",
       "build-js-styles.css",
-      "app-894600292604f92db275.js.map",
+      "app-1006a45f5d4e52a4d635.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
