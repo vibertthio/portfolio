@@ -20,8 +20,16 @@ date: "2018-02-13"
   3. 訓練：將函數不斷最佳化，找到最好的函數
 * 隔閡與技術障礙
 
+## 2. Web
+*網路是一個跨文化、跨領域、跨國界的平台*
 
-## 2. Beact
+* 網頁技術
+* [網頁中的音像藝術](https://ithelp.ithome.com.tw/users/20107828/ironman/1552)
+  * 網頁中的聲音
+  * [網頁中的視覺](https://vibertthio.com/karesansui/)
+* 實際困難
+
+## 3. Beact
 *[Beact](/projects/beact) is  an audio/visual interactive art piece, and an instrument that everyone play with to become a DJ + VJ. It's based on the idea of patatap, and using two.js, tone.js as audio and visual library. It combines sequencer with on concept of patatap. I have added some my own animation and will do more to replace ones from patatap.*
 
 * 簡介
