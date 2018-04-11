@@ -31,8 +31,10 @@ export default () => (
 						Thio is studying in National Taiwan University(NTU), majoring in Electrical Engineering.
           </p>
           <p>
-						Mostly, he makes audio/visual art by using Processing(Java), C++ and Javascript. He is
-						currently also working on research of VR and Bio-art study.
+						Mostly, he makes audio/visual art by using Processing(Java),
+            C++ and Javascript. He is currently working on research of
+            machine learning in music
+            and web audio visual experiemts.
           </p>
         </div>
       </FadeIn>
