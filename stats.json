@@ -17,8 +17,8 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-3770654f9cf971da62e0.js",
-      "path---words-3770654f9cf971da62e0.js.map"
+      "path---words-b6f717965b600435f1a5.js",
+      "path---words-b6f717965b600435f1a5.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -39,6 +39,10 @@
     "path---words-2017-10-24-bio": [
       "path---words-2017-10-24-bio-19660285968e8ea8aedc.js",
       "path---words-2017-10-24-bio-19660285968e8ea8aedc.js.map"
+    ],
+    "path---words-2018-07-01-chromesthesia": [
+      "path---words-2018-07-01-chromesthesia-1ac64e7aacc0e68f7a51.js",
+      "path---words-2018-07-01-chromesthesia-1ac64e7aacc0e68f7a51.js.map"
     ],
     "path---projects-karesansui": [
       "path---projects-karesansui-d4d4b2d1c0ad8c757eee.js",
@@ -89,8 +93,8 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-107bdfc7912367178967.js",
-      "path---projects-107bdfc7912367178967.js.map"
+      "path---projects-7e7ef7ee6f86e0aa0527.js",
+      "path---projects-7e7ef7ee6f86e0aa0527.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -165,8 +169,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-437001be1310b340bdbe.js",
-      "path---my-files-437001be1310b340bdbe.js.map"
+      "path---my-files-f540e86693bd97c50910.js",
+      "path---my-files-f540e86693bd97c50910.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -191,9 +195,9 @@
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-7f5228eea3be2ffe647c.js",
+      "app-4ef81810d1871d76c992.js",
       "build-js-styles.css",
-      "app-7f5228eea3be2ffe647c.js.map",
+      "app-4ef81810d1871d76c992.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
