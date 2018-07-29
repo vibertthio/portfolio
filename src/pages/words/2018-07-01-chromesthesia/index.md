@@ -15,7 +15,18 @@ date: "2018-07-01"
 
 ## 論述
 
+那些黑色的數位磁帶裡面承裝著許多色偏了的畫面，那是記憶存在特定格式 0/1 裡面的樣子。DCR-TRV30 本是人類記憶能力延伸的科技義肢，卻在一天發現自己內嵌在硬體裡面、那塊處理格式的演算法出了錯，大概是某個地方鏽掉了吧（ROM 之類的）。
+
+它回播磁帶，透過那棵鏡頭觀察自己。畫面乍看只剩下一個白框，不斷閃爍好像是在講著完全不同的故事。這些都錄了進去，它作為記憶延伸的科技工具也有了自己的記憶 ……
+
+Those lo-fi videos are stored in the black digital cassettes, which is essentially the combination of 0/1 in specific format. Though DCR-TRV30 is only a technological prosthesis as extension of human capability of memory. One day, it found that its hardware embedded algorithm, which is interpreting the video format, had something wrong. It thought that maybe it’s the rust on ROM (Read Only Memory) to blame.
+
+DCR-TRV30 tried to replay the cassettes, gazing through its tiny optical lens. The original images were gone. In the beginning, the only thing left is a glowing white frame. It started glittering and was seemed trying to tell a different story. They are recorded by DCR-TRV30 itself, and it felt …
+
+
+
 ### DCR-TRV30
+
 弟弟終於進了大學，他選擇了北藝大新媒體藝術學系。也因此，他開始接觸攝影、注意身邊許多被淘汰的科技儀器，包括我們家裡面那台許久沒動的手持 [Sony DCR-TRV30](https://www.cnet.com/products/sony-dcr-trv30/specs/) 與裝了一鐵盒的 Mini DV 帶。裡面盛裝的是我們的童年，那些黃黃的、畫面模糊的印象。
 
 大約二十卷左右，最早的拍攝時期是我已經上了小學的年紀，那時候弟弟還在唸幼稚園。因為當時這樣的攝影機已經是最新的影像設備。一天，我與女友在家裡，翻找了一捲捲的錄影帶，看到爸媽年輕的樣貌，想到被藏到心底的遠大夢想，那是他們放在我身上的青春啊！也看到時常欺負弟弟的我，當時候總覺得他小我一截，什麼都不懂，所以容易看不起他。小時候嘴巴停不下來的他，是不是因為我的關係而長大變得不愛說話了？我止不住的流淚，低傳真度的影像變為一個介面，聯結到被壓縮為數位訊號的記憶。
@@ -30,7 +41,7 @@ Mini DV 裡用磁性物質記憶的數位訊號、數位相機儲存於 SD 記�
 
 磁帶與攝影機在成長過程中扮演記憶「義肢」的角色，也可以說是賽伯格人的器官。因此，可以說《數位皮層》這件作品，建立在上述賽伯格式的詮釋之上，試圖將藝術家本身的生命經驗透過數位訊號的轉化，結合音像藝術的表達手法進行呈現。透過程式編寫，將所有檔案中的畫面、音訊與文字全部轉化為抽象的符碼。解構了原本時空之中資料的意義，使得新的「記憶」模式得以建構；而這個器官卻在場景中凝視著這個畫面，形成了一個記憶的迴路：記錄著記錄轉化，然後被轉化。
 
-最後，也讓觀者思考：記憶／經驗的本身是否可以被完全記錄／回播？賽伯格的記憶是否能以不同人類經驗結構的方式實現？作品中，當記憶體本身成為器官，
+最後，也讓觀者思考：記憶／經驗的本身是否可以被完全記錄／回播？賽伯格的記憶是否能以不同人類經驗結構的方式實現？
 
 
 
