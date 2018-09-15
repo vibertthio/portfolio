@@ -1,5 +1,6 @@
 import etude from './etude/desc';
 import beact from './beact/desc';
+import dc from './digital-cortex/desc';
 import karesansui from './karesansui/desc';
 import transperception from './transperception/desc';
 import vtbb from './vtbb/desc';
@@ -26,6 +27,7 @@ import cabinet from './cabinet/desc';
 export default [
 	etude,
 	beact,
+	dc,
 	karesansui,
 	whip,
 	boyajian,
