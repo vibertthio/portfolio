@@ -12,13 +12,17 @@
       "component---src-pages-projects-whipwhip-desc-index-js-9c58be367706c98c9f11.js",
       "component---src-pages-projects-whipwhip-desc-index-js-9c58be367706c98c9f11.js.map"
     ],
+    "path---projects-digital-cortex": [
+      "path---projects-digital-cortex-1fd27deafaeb6ff41e3c.js",
+      "path---projects-digital-cortex-1fd27deafaeb6ff41e3c.js.map"
+    ],
     "path---projects-sta": [
       "path---projects-sta-7482cd0b2b6d364e4884.js",
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-996f32e3815b29b506a9.js",
-      "path---words-996f32e3815b29b506a9.js.map"
+      "path---words-c833b7ffbe64670d1ba2.js",
+      "path---words-c833b7ffbe64670d1ba2.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -76,9 +80,13 @@
       "component---src-pages-projects-sta-desc-index-js-95886617a112882540de.js",
       "component---src-pages-projects-sta-desc-index-js-95886617a112882540de.js.map"
     ],
+    "path---projects-digital-cortex-desc": [
+      "path---projects-digital-cortex-desc-a0e39f21c11f6a62c5ab.js",
+      "path---projects-digital-cortex-desc-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-projects-projects-content-js": [
-      "component---src-pages-projects-projects-content-js-31fac35dc197b24a8357.js",
-      "component---src-pages-projects-projects-content-js-31fac35dc197b24a8357.js.map"
+      "component---src-pages-projects-projects-content-js-d44ef55bf0d7f1b13263.js",
+      "component---src-pages-projects-projects-content-js-d44ef55bf0d7f1b13263.js.map"
     ],
     "path---projects-etude": [
       "path---projects-etude-2b4bf465a44a93110d08.js",
@@ -93,8 +101,8 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
     "path---projects": [
-      "path---projects-7bf16ef1e38f39e93980.js",
-      "path---projects-7bf16ef1e38f39e93980.js.map"
+      "path---projects-bb8a9313026324283706.js",
+      "path---projects-bb8a9313026324283706.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -136,6 +144,10 @@
       "path---docs-2018-01-27-chromesthesia-ab990f22a68bf12b367b.js",
       "path---docs-2018-01-27-chromesthesia-ab990f22a68bf12b367b.js.map"
     ],
+    "component---src-pages-projects-digital-cortex-desc-index-js": [
+      "component---src-pages-projects-digital-cortex-desc-index-js-977f8edb78d1d2ca97b5.js",
+      "component---src-pages-projects-digital-cortex-desc-index-js-977f8edb78d1d2ca97b5.js.map"
+    ],
     "path---projects-projects-content": [
       "path---projects-projects-content-a0e39f21c11f6a62c5ab.js",
       "path---projects-projects-content-a0e39f21c11f6a62c5ab.js.map"
@@ -169,8 +181,8 @@
       "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
     ],
     "path---my-files": [
-      "path---my-files-6bd6c7ba43266058beb6.js",
-      "path---my-files-6bd6c7ba43266058beb6.js.map"
+      "path---my-files-bf78a8e276b1524e1324.js",
+      "path---my-files-bf78a8e276b1524e1324.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -183,8 +195,8 @@
       "path---projects-beatmap-2ea7c93281777637c599.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-d233781d8bded1a8c94c.js",
-      "component---src-pages-projects-js-d233781d8bded1a8c94c.js.map"
+      "component---src-pages-projects-js-e04266ea8226bf448a73.js",
+      "component---src-pages-projects-js-e04266ea8226bf448a73.js.map"
     ],
     "path---words-2018-01-23-futureworks": [
       "path---words-2018-01-23-futureworks-de64a5281b7499caa09e.js",
@@ -195,9 +207,9 @@
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-1720e984ff79d131991d.js",
+      "app-afb77c9055326cba329a.js",
       "build-js-styles.css",
-      "app-1720e984ff79d131991d.js.map",
+      "app-afb77c9055326cba329a.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
