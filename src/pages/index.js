@@ -24,17 +24,10 @@ export default () => (
       <FadeIn>
         <div className={styles.contentContainer}>
           <p>
-						Vibert Thio is digging into cutting-edge tech, and transforming it into the energy
-						of creating his art pieces in several new forms.
+						Thio defines himself as a poetic technologist, playing around the disciplines of music, art, and technology. He develops a wide variety of projects, including interactive machine learning, audio/visual web pages, musical instrument, and art rehabilitation.
           </p>
           <p>
-						Thio is studying in National Taiwan University(NTU), majoring in Electrical Engineering.
-          </p>
-          <p>
-						Mostly, he makes audio/visual art by using Processing(Java),
-            C++ and Javascript. He is currently working on research of
-            machine learning in music
-            and web audio visual experiemts.
+						He is currently researching into "Machine Learning For Music Generation" in MAC Lab, Academia Sinica. Prior to that, he studied Electrical Engineering at National Taiwan University. His works have been showcased at Click Festival 2018 and Ars Electronica 2018.
           </p>
         </div>
       </FadeIn>

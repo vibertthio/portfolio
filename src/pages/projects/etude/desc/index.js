@@ -4,12 +4,7 @@ import etudeImg from '../etude-01-s.jpg';
 export default 	{
 		title: 'Étude',
 		content: `
-      We set as a goal to bring back the victims of
-      one incident their colorful youth and future
-      through the expression of music, art, and
-      technology. The addition of the music and creativity content in their
-      rehabilitation aimed to bring a more positive atmosphere
-      to them.
+We set it as a goal to bring back the victims of one incident their colorful youth and future through the expression of music, art, and technology. The addition of the music and creativity content in their rehabilitation aimed to bring a more positive atmosphere to them.
     `,
 		links: [
 			{
