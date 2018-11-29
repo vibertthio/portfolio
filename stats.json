@@ -21,8 +21,8 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-f3a1526e4031e1feebdd.js",
-      "path---words-f3a1526e4031e1feebdd.js.map"
+      "path---words-9caf997730d80afff18c.js",
+      "path---words-9caf997730d80afff18c.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -32,13 +32,13 @@
       "component---src-pages-projects-cabinet-desc-index-js-e840b0f60f14ff4fea06.js",
       "component---src-pages-projects-cabinet-desc-index-js-e840b0f60f14ff4fea06.js.map"
     ],
-    "path---shinyi": [
-      "path---shinyi-579f1beaa03152657028.js",
-      "path---shinyi-579f1beaa03152657028.js.map"
+    "path---archive-2018-01-27-chromesthesia": [
+      "path---archive-2018-01-27-chromesthesia-2bbe8378964d308fcbf6.js",
+      "path---archive-2018-01-27-chromesthesia-2bbe8378964d308fcbf6.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e300b8a2add9a4be8243.js",
-      "component---src-pages-index-js-e300b8a2add9a4be8243.js.map"
+      "component---src-pages-index-js-4f6a3f1b7a8f1a5efd1d.js",
+      "component---src-pages-index-js-4f6a3f1b7a8f1a5efd1d.js.map"
     ],
     "path---words-2017-10-24-bio": [
       "path---words-2017-10-24-bio-19660285968e8ea8aedc.js",
@@ -47,6 +47,10 @@
     "path---words-2018-07-01-chromesthesia": [
       "path---words-2018-07-01-chromesthesia-1f2fa0934914270ead16.js",
       "path---words-2018-07-01-chromesthesia-1f2fa0934914270ead16.js.map"
+    ],
+    "path---archive-2018-01-23-futureworks": [
+      "path---archive-2018-01-23-futureworks-d0bef7e19e5d8f9f8b77.js",
+      "path---archive-2018-01-23-futureworks-d0bef7e19e5d8f9f8b77.js.map"
     ],
     "path---projects-karesansui": [
       "path---projects-karesansui-d4d4b2d1c0ad8c757eee.js",
@@ -61,8 +65,8 @@
       "path---projects-beatmap-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-beact-desc-index-js": [
-      "component---src-pages-projects-beact-desc-index-js-ea34806f27e8f2eff425.js",
-      "component---src-pages-projects-beact-desc-index-js-ea34806f27e8f2eff425.js.map"
+      "component---src-pages-projects-beact-desc-index-js-56e220e96c3a082c6f7d.js",
+      "component---src-pages-projects-beact-desc-index-js-56e220e96c3a082c6f7d.js.map"
     ],
     "component---src-pages-projects-karesansui-desc-index-js": [
       "component---src-pages-projects-karesansui-desc-index-js-cd5384fd9dacd80000d0.js",
@@ -85,8 +89,8 @@
       "path---projects-digital-cortex-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-projects-content-js": [
-      "component---src-pages-projects-projects-content-js-bc7e8e747b5983d932ca.js",
-      "component---src-pages-projects-projects-content-js-bc7e8e747b5983d932ca.js.map"
+      "component---src-pages-projects-projects-content-js-2fa55a6bc11cfd9a2d15.js",
+      "component---src-pages-projects-projects-content-js-2fa55a6bc11cfd9a2d15.js.map"
     ],
     "path---projects-etude": [
       "path---projects-etude-789853562451e9219052.js",
@@ -100,9 +104,13 @@
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js",
       "path---projects-vtbb-ddaddffb20be99c3e1b5.js.map"
     ],
+    "component---src-pages-archive-js": [
+      "component---src-pages-archive-js-655bca8a9f542fb42bc6.js",
+      "component---src-pages-archive-js-655bca8a9f542fb42bc6.js.map"
+    ],
     "path---projects": [
-      "path---projects-1309851c9a208e999495.js",
-      "path---projects-1309851c9a208e999495.js.map"
+      "path---projects-42576228dc94ec36a334.js",
+      "path---projects-42576228dc94ec36a334.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -121,8 +129,12 @@
       "path---projects-cabinet-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-de19b1bb2b4b5c393af2.js",
-      "component---src-layouts-index-js-de19b1bb2b4b5c393af2.js.map"
+      "component---src-layouts-index-js-519da32fb1c67b8587c0.js",
+      "component---src-layouts-index-js-519da32fb1c67b8587c0.js.map"
+    ],
+    "path---archive-2018-02-13-generative-music": [
+      "path---archive-2018-02-13-generative-music-1d24df3fac5ae83aad1b.js",
+      "path---archive-2018-02-13-generative-music-1d24df3fac5ae83aad1b.js.map"
     ],
     "path---projects-trail": [
       "path---projects-trail-5a1768fad48c797e3ca4.js",
@@ -133,16 +145,12 @@
       "path---projects-boyajian-befa719b342d49acfa63.js.map"
     ],
     "path---projects-beact": [
-      "path---projects-beact-eb9579493ef3e22b44dc.js",
-      "path---projects-beact-eb9579493ef3e22b44dc.js.map"
+      "path---projects-beact-677fb3fb9ce33387d3f3.js",
+      "path---projects-beact-677fb3fb9ce33387d3f3.js.map"
     ],
     "path---projects-whipwhip-desc": [
       "path---projects-whipwhip-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-whipwhip-desc-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---docs-2018-01-27-chromesthesia": [
-      "path---docs-2018-01-27-chromesthesia-ab990f22a68bf12b367b.js",
-      "path---docs-2018-01-27-chromesthesia-ab990f22a68bf12b367b.js.map"
     ],
     "component---src-pages-projects-digital-cortex-desc-index-js": [
       "component---src-pages-projects-digital-cortex-desc-index-js-977f8edb78d1d2ca97b5.js",
@@ -151,6 +159,10 @@
     "path---projects-projects-content": [
       "path---projects-projects-content-a0e39f21c11f6a62c5ab.js",
       "path---projects-projects-content-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---archive-2018-02-22-dad": [
+      "path---archive-2018-02-22-dad-d66caa052e44c178a57b.js",
+      "path---archive-2018-02-22-dad-d66caa052e44c178a57b.js.map"
     ],
     "path---projects-vtbb-desc": [
       "path---projects-vtbb-desc-a0e39f21c11f6a62c5ab.js",
@@ -172,17 +184,13 @@
       "path---projects-beact-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-beact-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---words-2018-02-13-generative-music": [
-      "path---words-2018-02-13-generative-music-00b14f2632629458ae58.js",
-      "path---words-2018-02-13-generative-music-00b14f2632629458ae58.js.map"
-    ],
     "component---src-pages-my-files-js": [
-      "component---src-pages-my-files-js-99963f31d4858e137ab3.js",
-      "component---src-pages-my-files-js-99963f31d4858e137ab3.js.map"
+      "component---src-pages-my-files-js-7c05ef493540eb329181.js",
+      "component---src-pages-my-files-js-7c05ef493540eb329181.js.map"
     ],
     "path---my-files": [
-      "path---my-files-8d513a546ba644cf0618.js",
-      "path---my-files-8d513a546ba644cf0618.js.map"
+      "path---my-files-d9906a9c5a387f8ea2b2.js",
+      "path---my-files-d9906a9c5a387f8ea2b2.js.map"
     ],
     "commons": [
       "commons-e71d5bbb294f3399e5c3.js",
@@ -190,31 +198,35 @@
       "commons-e71d5bbb294f3399e5c3.js.map",
       "build-js-styles.css.map"
     ],
+    "path---archive-2018-02-14-shinyi": [
+      "path---archive-2018-02-14-shinyi-1462385e4cf13a599120.js",
+      "path---archive-2018-02-14-shinyi-1462385e4cf13a599120.js.map"
+    ],
     "path---projects-beatmap": [
       "path---projects-beatmap-2ea7c93281777637c599.js",
       "path---projects-beatmap-2ea7c93281777637c599.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-84769a978e8c4d87a3f1.js",
-      "component---src-pages-projects-js-84769a978e8c4d87a3f1.js.map"
-    ],
-    "path---words-2018-01-23-futureworks": [
-      "path---words-2018-01-23-futureworks-de64a5281b7499caa09e.js",
-      "path---words-2018-01-23-futureworks-de64a5281b7499caa09e.js.map"
+      "component---src-pages-projects-js-8bfe4d1c0127bc7fc299.js",
+      "component---src-pages-projects-js-8bfe4d1c0127bc7fc299.js.map"
     ],
     "component---src-pages-projects-vtbb-desc-index-js": [
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js",
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-740270580726476913fe.js",
+      "app-62627be43516430a0f3a.js",
       "build-js-styles.css",
-      "app-740270580726476913fe.js.map",
+      "app-62627be43516430a0f3a.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
       "component---src-pages-projects-trail-desc-index-js-f3386e058312047c4a68.js",
       "component---src-pages-projects-trail-desc-index-js-f3386e058312047c4a68.js.map"
+    ],
+    "path---archive": [
+      "path---archive-9caf997730d80afff18c.js",
+      "path---archive-9caf997730d80afff18c.js.map"
     ],
     "path---projects-sta-desc": [
       "path---projects-sta-desc-a0e39f21c11f6a62c5ab.js",
@@ -231,10 +243,6 @@
     "path---projects-boyajian-desc": [
       "path---projects-boyajian-desc-a0e39f21c11f6a62c5ab.js",
       "path---projects-boyajian-desc-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---dad": [
-      "path---dad-f3cb8ce6372d03dda173.js",
-      "path---dad-f3cb8ce6372d03dda173.js.map"
     ],
     "path---words-2018-10-18-intro-drum-vae": [
       "path---words-2018-10-18-intro-drum-vae-4b640ea108567f795536.js",
