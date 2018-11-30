@@ -118,7 +118,7 @@ class Layout extends Component {
       <div className={styles.body}>{this.props.children()}</div>
       <footer>
         <div className={styles.footerContainer}>
-          <h6 className={styles.footerContent}>2017 @ Vibert Thio</h6>
+          <h6 className={styles.footerContent}>2018 @ Vibert Thio</h6>
         </div>
       </footer>
     </div>

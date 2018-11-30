@@ -1,5 +1,5 @@
 ---
-title: "聯覺共振：數位皮層"
+title: "Digital Cortex"
 author: Vibert Thio
 date: "2018-01-27"
 ---

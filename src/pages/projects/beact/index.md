@@ -68,7 +68,7 @@ In order to promote this project, I gathered few friends to hold a group exhibit
 [> Source Code][3]<br/>
 [> Blog][4]
 
-[1]: https://beact.herokuapp.com/
+[1]: http://beacts.com/
 [2]: https://vimeo.com/226318485
 [3]: https://github.com/vibertthio/beact
 [4]: https://medium.com/@vibertthio/beact-audio-visual-art-in-react-44e9c757e40f

@@ -75,13 +75,13 @@ export default props => (
       <ListDevider>
         <h4 className={styles.navDevider}>|</h4>
       </ListDevider>
-      <ListLink to="/words/2017-10-24-bio/" path={props.path}>
+      {/* <ListLink to="/words/2017-10-24-bio/" path={props.path}>
         <h4 className={styles.navItem}>Bio</h4>
       </ListLink>
       <ListDevider>
         <h4 className={styles.navDevider}>|</h4>
-      </ListDevider>
-      <ListLinkOut to="https://drive.google.com/file/d/0ByNwzf7aYOQ3ZnZIbWdCYm9GbjA/view?usp=sharing" path={props.path}>
+      </ListDevider> */}
+      <ListLinkOut to="https://drive.google.com/file/d/1m9z3324qaDx79yVed04EmM-oQ1Fqm-nQ/view?usp=sharing" path={props.path}>
         <h4 className={styles.navItem}>C.V.</h4>
       </ListLinkOut>
     </FadeIn>
