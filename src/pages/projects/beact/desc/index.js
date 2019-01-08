@@ -3,13 +3,14 @@ import beactImg from '../perf.jpg';
 export default {
 		title: 'Beact',
 		content: `
-      An audio/visual interactive art piece,
-      and an instrument that everyone can play with
-      to become a DJ + VJ. It's based on the idea of patatap,
-      and using two.js, tone.js each as the audio and visual library.
-	  It combines sequencer with on concept of patatap.
-	  We aim to make a interactive album that the audience
-	  can not only listen to the music but also participate.
+Browser-based VJ x Drummachine x Sequencer. \n
+An audio/visual interactive art piece,
+and an instrument that everyone can play with
+to become a DJ + VJ. It's based on the idea of patatap,
+and using two.js, tone.js each as the audio and visual library.
+It combines sequencer with on concept of patatap.
+We aim to make a interactive album that the audience
+can not only listen to the music but also participate.
     `,
 		links: [
 			{

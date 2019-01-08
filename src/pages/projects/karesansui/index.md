@@ -25,8 +25,8 @@ The central idea of this small side projects is that Vibert wanted to create a s
 
 ##Links
 
-[> Play Here][1]  
-[> Source Code][2]  
+[> Play Here][1]
+[> Source Code][2]
 
 [1]: https://vibertthio.com/karesansui/
 [2]: https://github.com/vibertthio/karesansui

@@ -1,4 +1,5 @@
 import etude from './etude/desc';
+import sornting from './sornting/desc';
 import beact from './beact/desc';
 import dc from './digital-cortex/desc';
 import karesansui from './karesansui/desc';
@@ -26,6 +27,7 @@ import cabinet from './cabinet/desc';
  */
 export default [
 	etude,
+	sornting,
 	beact,
 	dc,
 	karesansui,
