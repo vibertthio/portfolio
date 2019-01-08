@@ -8,13 +8,17 @@ author: Vibert Thio
 
 #####:guitar: :art: DJ and VJ all by yourself in seconds on a webpage! Use React to create beats. [  Play Now!](https://beact.herokuapp.com/)
 
-<br>
+<br/>
 
-<iframe src="https://player.vimeo.com/video/226318485" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/226318485">Beact | Web DJ / VJ | Teaser</a> from <a href="https://vimeo.com/user56788864">Vibert Thio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-<!-- ![](./img-01.jpg)
-*Video shooting for Beact. (2017.7)* -->
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 500px; width: 100%;">
+  <iframe
+    allow="geolocation; microphone; camera; midi; encrypted-media"
+    src="https://glitch.com/embed/#!/embed/beacts?path=README.md&previewSize=100&attributionHidden=true&previewFirst=true"
+    alt="beacts on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 ##Introduction
 
@@ -60,6 +64,12 @@ When I finished first the stable version of Beact and published it using Heroku,
 ##Group Exhibition
 
 In order to promote this project, I gathered few friends to hold a group exhibition to show our works, such as “Beact”, “Trail” (interactive light installation), etc. Moreover, I took charge of a workshop of creative coding and audio/visual art on the web to demonstrate the thriving community of artists, programmers, and makers on the internet. I also produced a teaser video for Beact, showing me using Beact to perform a bit.
+
+<br>
+
+<iframe src="https://player.vimeo.com/video/226318485" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/226318485">Beact | Web DJ / VJ | Teaser</a> from <a href="https://vimeo.com/user56788864">Vibert Thio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 
 ##Links
 
