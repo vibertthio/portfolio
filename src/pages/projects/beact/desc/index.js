@@ -14,12 +14,16 @@ can not only listen to the music but also participate.
     `,
 		links: [
 			{
-				name: 'Showcase Video',
-				url: 'https://vimeo.com/226318485',
+				name: 'walkthrough',
+				url: 'https://www.youtube.com/watch?v=zHS0Oq15ceA',
 			},
 			{
 				name: 'Demo',
-				url: 'http://beacts.com/',
+				url: 'https://beacts.glitch.me/',
+			},
+			{
+				name: 'Showcase Video',
+				url: 'https://vimeo.com/226318485',
 			},
 			{
 				name: 'Source Code',

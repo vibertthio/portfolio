@@ -6,7 +6,7 @@ author: Vibert Thio
 
 > 2017.4 – now
 
-#####:guitar: :art: DJ and VJ all by yourself in seconds on a webpage! Use React to create beats. [  Play Now!](https://beact.herokuapp.com/)
+#####:guitar: :art: DJ and VJ all by yourself in seconds on a webpage! Use React to create beats. [  Play Now!](https://beacts.glitch.me/)
 
 <br/>
 
@@ -78,7 +78,7 @@ In order to promote this project, I gathered few friends to hold a group exhibit
 [> Source Code][3]<br/>
 [> Blog][4]
 
-[1]: http://beacts.com/
+[1]: https://beacts.glitch.me/
 [2]: https://vimeo.com/226318485
 [3]: https://github.com/vibertthio/beact
 [4]: https://medium.com/@vibertthio/beact-audio-visual-art-in-react-44e9c757e40f
