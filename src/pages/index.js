@@ -24,10 +24,10 @@ export default () => (
       <FadeIn>
         <div className={styles.contentContainer}>
           <p>
-						Thio defines himself as a poetic technologist, playing around the disciplines of music, art, and technology. He aims to “democratize musical expression” and has developed a wide variety of projects to approach it, including interactive machine learning for music, audio/visual web pages, musical instrument, and art rehabilitation.
+						Thio defines himself as a poetic technologist, playing around the disciplines of music, art, and technology. He aims to “democratize musical expression” and has developed a wide variety of projects to approach it, including musical game, interactive albums on the web, musical instrument, and art rehabilitation. His musical interests lie around Fingerstyle (Guitar), Hip Hop (Produce & Rap), and Minimal Techno.
           </p>
           <p>
-						Currently, he is doing research about "Machine Learning For Music Generation" in MAC Lab, Academia Sinica. Prior to that, he studied Electrical Engineering at National Taiwan University. His works have been showcased at Click Festival 2018 and Ars Electronica 2018.
+						Currently, he is doing research about "Interactive Machine Learning For Music" in MAC Lab, Academia Sinica. Prior to that, he studied Electrical Engineering at National Taiwan University. His works have been showcased at Click Festival 2018 and Ars Electronica 2018.
           </p>
         </div>
       </FadeIn>
