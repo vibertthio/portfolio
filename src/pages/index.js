@@ -62,7 +62,7 @@ export default () => (
             </a>
           </li>
           <li>
-            <a href="mailto:vibertthio@gmail.com">
+						<a rel="noopener noreferrer" target="_blank" href="https://eepurl.com/glIO19">
               <img src={mailIcon} className={styles.snIcon} alt="email-icon" />
             </a>
           </li>
