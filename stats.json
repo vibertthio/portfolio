@@ -25,8 +25,16 @@
       "path---projects-sta-7482cd0b2b6d364e4884.js.map"
     ],
     "path---words": [
-      "path---words-52304e6b14b341b54355.js",
-      "path---words-52304e6b14b341b54355.js.map"
+      "path---words-9c356276cf2fee360e13.js",
+      "path---words-9c356276cf2fee360e13.js.map"
+    ],
+    "path---projects-runn": [
+      "path---projects-runn-649bb72ebc2717a6af29.js",
+      "path---projects-runn-649bb72ebc2717a6af29.js.map"
+    ],
+    "path---projects-runn-desc": [
+      "path---projects-runn-desc-a0e39f21c11f6a62c5ab.js",
+      "path---projects-runn-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---projects-transperception-desc": [
       "path---projects-transperception-desc-a0e39f21c11f6a62c5ab.js",
@@ -41,8 +49,8 @@
       "path---archive-2018-01-27-chromesthesia-2bbe8378964d308fcbf6.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-2d2aaa50f0fdfbfc4d1f.js",
-      "component---src-pages-index-js-2d2aaa50f0fdfbfc4d1f.js.map"
+      "component---src-pages-index-js-de2f0d5c76021b0e3602.js",
+      "component---src-pages-index-js-de2f0d5c76021b0e3602.js.map"
     ],
     "path---words-2017-10-24-bio": [
       "path---words-2017-10-24-bio-19660285968e8ea8aedc.js",
@@ -61,8 +69,8 @@
       "path---projects-karesansui-31d75acaaa4445d37dea.js.map"
     ],
     "path---files": [
-      "path---files-b614787432f2a76494f6.js",
-      "path---files-b614787432f2a76494f6.js.map"
+      "path---files-09b8d82106cd92fe7c25.js",
+      "path---files-09b8d82106cd92fe7c25.js.map"
     ],
     "component---src-pages-files-js": [
       "component---src-pages-files-js-7c05ef493540eb329181.js",
@@ -105,8 +113,8 @@
       "path---projects-digital-cortex-desc-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-projects-content-js": [
-      "component---src-pages-projects-projects-content-js-c6b9673b7a49cecbf0f8.js",
-      "component---src-pages-projects-projects-content-js-c6b9673b7a49cecbf0f8.js.map"
+      "component---src-pages-projects-projects-content-js-d1a6afc30b252df0fd5c.js",
+      "component---src-pages-projects-projects-content-js-d1a6afc30b252df0fd5c.js.map"
     ],
     "path---projects-etude": [
       "path---projects-etude-789853562451e9219052.js",
@@ -125,8 +133,8 @@
       "component---src-pages-archive-js-655bca8a9f542fb42bc6.js.map"
     ],
     "path---projects": [
-      "path---projects-f72da7692c2a9a561326.js",
-      "path---projects-f72da7692c2a9a561326.js.map"
+      "path---projects-ade3bc8d0bba1f7f5f31.js",
+      "path---projects-ade3bc8d0bba1f7f5f31.js.map"
     ],
     "path---projects-avexp-desc": [
       "path---projects-avexp-desc-a0e39f21c11f6a62c5ab.js",
@@ -227,8 +235,8 @@
       "path---projects-sornting-d9a6233814aa30596fe1.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-f38a2c56189e8201ce4b.js",
-      "component---src-pages-projects-js-f38a2c56189e8201ce4b.js.map"
+      "component---src-pages-projects-js-298f8ca9ec318aba1c39.js",
+      "component---src-pages-projects-js-298f8ca9ec318aba1c39.js.map"
     ],
     "path---projects-drum-vae-desc": [
       "path---projects-drum-vae-desc-a0e39f21c11f6a62c5ab.js",
@@ -239,9 +247,9 @@
       "component---src-pages-projects-vtbb-desc-index-js-8952d6b054ca7dbfded8.js.map"
     ],
     "app": [
-      "app-baa5d4a2c7e851e4bfa9.js",
+      "app-eb810f48883c5ff09e81.js",
       "build-js-styles.css",
-      "app-baa5d4a2c7e851e4bfa9.js.map",
+      "app-eb810f48883c5ff09e81.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-projects-trail-desc-index-js": [
@@ -249,8 +257,8 @@
       "component---src-pages-projects-trail-desc-index-js-f3386e058312047c4a68.js.map"
     ],
     "path---archive": [
-      "path---archive-52304e6b14b341b54355.js",
-      "path---archive-52304e6b14b341b54355.js.map"
+      "path---archive-9c356276cf2fee360e13.js",
+      "path---archive-9c356276cf2fee360e13.js.map"
     ],
     "path---projects-sta-desc": [
       "path---projects-sta-desc-a0e39f21c11f6a62c5ab.js",
@@ -263,6 +271,10 @@
     "component---src-pages-projects-avexp-desc-index-js": [
       "component---src-pages-projects-avexp-desc-index-js-bd3192361f0ff3ed7aa6.js",
       "component---src-pages-projects-avexp-desc-index-js-bd3192361f0ff3ed7aa6.js.map"
+    ],
+    "component---src-pages-projects-runn-desc-index-js": [
+      "component---src-pages-projects-runn-desc-index-js-07f23bb8fd58ac8b7fff.js",
+      "component---src-pages-projects-runn-desc-index-js-07f23bb8fd58ac8b7fff.js.map"
     ],
     "path---projects-boyajian-desc": [
       "path---projects-boyajian-desc-a0e39f21c11f6a62c5ab.js",
